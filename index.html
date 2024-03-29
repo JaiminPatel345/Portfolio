@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-             
+    <link rel="stylesheet" href="style.css" />
 
-
-
+       <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+  integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
     <header class="header">
-        
-        <a href="#"  id="name"><p>My Portfolio</p></a>
-        <nav class="navbar">
-            <div id="marker"></div>
-            <a href="#about">ABOUT ME</a>
-            <a href="#skill">SKILLS</a>
-            <a href="#Projects">PROJECTS</a>
-            <a href="#Education">EDUCATION</a>
-           <a href="#Feedback">FEEDBACK</a>
-        </nav> 
+      <a href="#" id="name"><p>My Portfolio</p></a>
+      <nav class="navbar">
+        <div id="marker"></div>
+        <a href="#about">ABOUT ME</a>
+        <a href="#skill">SKILLS</a>
+        <a href="#Projects">PROJECTS</a>
+        <a href="#Education">EDUCATION</a>
+        <a href="#Feedback">FEEDBACK</a>
+      </nav>
     </header>
-    
+
+    <!-- home section start-->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+          <div class="text-2">Jaimin Detroja</div>
+          <div class="text-3">I'm a <span class="typing"></span></div>
+        </div>
+      </div>
+    </section>
+
     <div id="about"></div>
     <div id="Skills"></div>
     <div id="Projects"></div>
@@ -31,5 +42,5 @@
     <div id="Feedback"></div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

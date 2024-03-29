@@ -15,8 +15,8 @@ html{
 
 body{
     color: white;
-    background-image: url(SRC/glowing-edges-hexagonal-texture.jpg);
-    /* background-color: #0F171E; */
+    /* background-image: url(SRC/glowing-edges-hexagonal-texture.jpg); */
+    background-color: #2b2c28;
 }
 
 .header{
@@ -35,7 +35,7 @@ body{
 
 #name{
     font-size: 25px;
-    color: white;
+    color: #a9f8fb;
     padding: 25px;
     font-weight: 600;
     cursor: default;
@@ -43,7 +43,7 @@ body{
 
 .header #marker{
     position: absolute;
-    background-color: rgba(0, 255, 255, 0.833);
+    background-color: #81f7e5;
     bottom: 13px;
     height: 4px;
     width: 0;
@@ -98,12 +98,16 @@ body{
 }
 
 .home .home-content .text-3 span {
-    color: #22d7b3;
+    color: #7fd8be;
     font-weight: 500;
 }
 
-
-
+.Cool-Photo {
+    position: relative;
+    left: 100px;
+    height: 100px;
+    width:  100px;
+}
 
 
 section{
@@ -119,6 +123,7 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+
 section .title{
     position: relative;
     text-align: center;
@@ -149,3 +154,69 @@ section .title::after{
     background: black;
     transform: translateX(-50%);
 }
+
+
+/* About Section */
+
+.about{
+    background: linear-gradient(to bottom, #2b2c28 0%, #3b2a44 100%);
+    background-size: 100vh;
+}
+/* .about .max-width img{
+    padding: auto 0 auto 50px;
+} */
+.about .title::after{
+    content: "Who I am";
+}
+.about .about-content .left{
+   width: 45%;
+}
+.about .about-content .left img{
+    height: 370px;
+    width: 370px;
+    margin-left: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0px 0px 7px #b2ff9e;
+    transition: all 0.3s ease;
+}
+.about .about-content .left img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 18px #b2ff9e;
+}
+.about .about-content .right{
+    width: 55%;
+ }
+ .about .about-content .right .text{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+ }
+ .about .about-content .right .text span{
+     color: #affc41;
+ }
+ .about .about-content .right .paragraph{
+     color: #7ebf23;
+     font-size: 18px;
+ }
+ .about .about-content .right .p{
+     text-align: justify;
+ }
+ .about .about-content .right a{
+    display: inline-block;
+    background: none;
+    color: #23b410;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 30px;
+    border-radius: 6px;
+    border: 2px solid #23b410;
+    transition: all 0.3s ease;
+ }
+ .about .about-content .right a:hover{
+     color: white;
+     background:none;
+ }
+ 

@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+
     <link rel="stylesheet" href="style.css" />
 
-       <!-- TYPE JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-  integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- TYPE JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <header class="header">
@@ -33,14 +39,48 @@
           <div class="text-3">I'm a <span class="typing"></span></div>
         </div>
       </div>
+      <div class="Cool-Photo">
+        <img src="SRC/Cool-Photo.png" alt="Animation" />
+      </div>
     </section>
 
-    <div id="about"></div>
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title" data-aos="fade-down">About Me</h2>
+        <div class="about-content">
+          <div class="column left" data-aos="fade-right">
+            <img src="SRC/My Image.jpg" alt="" />
+          </div>
+          <div class="column right" data-aos="fade-up">
+            <div class="text">
+              I'm Jaimin and Im a <span class="typing-2"></span>
+            </div>
+            <p class="paragraph">
+              I am Computer engineering undergraduate student of BVM . I am very
+              passionate and hardworking computer engineering student looking
+              forward to become a skilled Software Engineer and serve my
+              excellence to the company. I am enthusiastic person and love to
+              learn new things. The field of technology always amazes me that's
+              why i choose the field of computer engineering to follow my
+              passion.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1nSwi1truaoSN9SW4U8namB_fPu3XZNx6/view?usp=sharing"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div id="Skills"></div>
     <div id="Projects"></div>
     <div id="Education"></div>
     <div id="Feedback"></div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
     <script src="app.js"></script>
   </body>
 </html>

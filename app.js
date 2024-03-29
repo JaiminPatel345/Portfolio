@@ -25,3 +25,12 @@ var typed = new Typed(".typing", {
     fadeOut: false,
 
 });
+
+var typed = new Typed(".typing-2", {
+    strings: ["Computer Engineer" , "Coder", "Developer", "Backend Developer" ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+    fadeOut: true,
+
+});

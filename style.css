@@ -61,7 +61,7 @@ header{
     background-color: rgba(255, 255, 255, 0.1);
     z-index: 999 !important;
     backdrop-filter: blur(8px) ;
-    border: solid black 2px;
+    border: solid rgb(120, 120, 120) 1px;
 }
 
 #navbarNav {
@@ -77,16 +77,17 @@ header{
 }
 
 .nav-item a:hover{
-    color: rgb(200, 199, 199);
+    color: rgb(200, 199, 199) !important;
 }
 
 #name{
-    font-size: 25px;
+    font-size: 35px;
     color: #a9f8fb;
     padding: 25px;
     font-weight: 600;
     cursor: default;
 }
+
 
 section{
     height: 100vh;
@@ -178,6 +179,7 @@ section .title::after{
 
 .Cool-Photo {
     position: relative;
+    margin-top: 150px;
     left: 100px;
     height: 100px;
     width:  100px;
@@ -189,12 +191,8 @@ section .title::after{
 /* About Section */
 
 .about{
-    background: linear-gradient(to bottom, #2b2c28 0%, #3b2a44 100%) !important;
-    background-size: 100vh !important;
+    background: linear-gradient(to bottom, #2b2c28 0%, #1c2715 100%) !important;
 }
-/* .about .max-width img{
-    padding: auto 0 auto 50px;
-} */
 .about .title::after{
     content: "Who I am";
 }
@@ -250,3 +248,8 @@ section .title::after{
      background:none;
  }
  
+
+ #Skills{
+    background: linear-gradient(to bottom, #1c2715 0%, #2b2922 100%) !important;
+    color : white;
+ }

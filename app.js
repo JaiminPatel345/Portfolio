@@ -1,17 +1,17 @@
 // For navigation bar
-// let marker = document.querySelector("#marker");
-// let item = document.querySelectorAll(".navbar a");
+let marker = document.querySelector("#marker");
+let item = document.querySelectorAll(".navbar a");
 
-// function indicator(e) {
-//     marker.style.left = e.offsetLeft - 5 + "px";
-//     marker.style.width = e.offsetWidth + 10 + "px";
-// }
+function indicator(e) {
+    marker.style.left = e.offsetLeft - 5 + "px";
+    marker.style.width = e.offsetWidth + 10 + "px";
+}
 
-// item.forEach(link => {
-//     link.addEventListener('click', (e) => {
-//         indicator(e.target);
-//     })
-// })
+item.forEach(link => {
+    link.addEventListener('click', (e) => {
+        indicator(e.target);
+    })
+})
 
 
 
@@ -35,18 +35,12 @@ var typed = new Typed(".typing-2", {
 
 });
 
-
-document.addEventListener("DOMContentLoaded", function () {
-
-    var toggleButton = document.querySelector('.navbar-toggler');
-
-    var listItems = document.querySelectorAll('.nav-item');
-
-    listItems.forEach(function (item) {
-        item.addEventListener('click', function () {
-            if (toggleButton.getAttribute('aria-expanded') === 'true') {
-                toggleButton.click();
-            }
-        });
-    });
-});
+const form = document.getElementById('feedbackForm');
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch('https://script.google.com/macros/s/AKfycbx85JLTYu2sKrT054y-dR6LMx-QqHmrq8szeg0twnaAeWislhmHGJab0Yo0fXxzGLrN/exec', { method: 'POST', body: new FormData(form)})
+    .then(response => alert("Thank you! your form is submitted successfully." ))
+    .then(() => { window.location.reload(); })
+    .catch(error => console.error('Error!', error.message))
+  })
+  

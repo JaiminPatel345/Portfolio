@@ -1,17 +1,17 @@
 // For navigation bar
-let marker = document.querySelector("#marker");
-let item = document.querySelectorAll(".navbar a");
+// let marker = document.querySelector("#marker");
+// let item = document.querySelectorAll(".navbar a");
 
-function indicator(e) {
-    marker.style.left = e.offsetLeft - 5 + "px";
-    marker.style.width = e.offsetWidth + 10 + "px";
-}
+// function indicator(e) {
+//     marker.style.left = e.offsetLeft - 5 + "px";
+//     marker.style.width = e.offsetWidth + 10 + "px";
+// }
 
-item.forEach(link => {
-    link.addEventListener('click', (e) => {
-        indicator(e.target);
-    })
-})
+// item.forEach(link => {
+//     link.addEventListener('click', (e) => {
+//         indicator(e.target);
+//     })
+// })
 
 
 

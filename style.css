@@ -7,31 +7,40 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "ubuntu" , sans-serif ;
 }
 html{
    scroll-behavior:smooth;
 }
 
 
-html{
-    padding: 0 !important;
-    margin: 0 !important;
+body{
+    color: white;
+    /* background-image: url(SRC/glowing-edges-hexagonal-texture.jpg); */
+    background-color: #2b2c28;
 }
 
-/* .header{
+.header{
     position: fixed;
     top: 0;
     display: flex;
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
     background-color: rgba(255, 254, 254, 0.1);
     z-index: 999;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(8px) ;
     border-bottom: 2px solid rgba(255, 254, 254, 0.15);
 } 
 
-
+#logo{
+    font-size: 25px;
+    color: #a9f8fb;
+    padding: 25px;
+    font-weight: 600;
+    cursor: default;
+}
 
 .header #marker{
     position: absolute;
@@ -51,52 +60,62 @@ html{
 
 .navbar a:hover{
     color: rgb(255, 255, 255);
-} */
-
-
-
-header{
-    position:fixed !important; 
-    width: 100% !important;
-    background-color: rgba(255, 255, 255, 0.1);
-    z-index: 999 !important;
-    backdrop-filter: blur(8px) ;
-    border: solid rgb(120, 120, 120) 1px;
 }
 
-#navbarNav {
-    justify-content: flex-end;    
+
+
+/* Home */
+
+.home {
+    display: flex;
+    /* background-color: #0F171E; */
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.nav-item{
-    padding-left: 10px;
+.home .max-width {
+    margin: auto 0 auto 40px;
 }
 
-.nav-item a{
-    color: white !important;
+.home .max-width .home-content{
+    padding-top: 220px;
 }
 
-.nav-item a:hover{
-    color: rgb(200, 199, 199) !important;
+.home .home-content .text-1 {
+    font-size: 27px;
 }
 
-#name{
-    font-size: 35px;
-    color: #a9f8fb;
-    padding: 25px;
+.home .home-content .text-2 {
+    font-size: 75px;
     font-weight: 600;
-    cursor: default;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: #7fd8be;
+    font-weight: 500;
+}
+
+.Cool-Photo {
+    position: relative;
+    left: 100px;
+    height: 100px;
+    width:  100px;
 }
 
 
 section{
-    height: 100vh;
-    display: flex;
-    font-family: 'Ubuntu', sans-serif !important;
     padding: 120px 0;
+    height: 100vh;
     padding-bottom: 300px;
 }
-
 .about, .services, .skills, .contact, footer{
     font-family: 'Poppins',sans-serif;
 }
@@ -139,60 +158,15 @@ section .title::after{
 }
 
 
-
-/* Home */
-
-.home {
-    background-color: #2b2c28;
-    color: white;
-    min-height: 500px;
-    
-}
-
-.home .max-width {
-    margin: auto 0 auto 40px;
-}
-
-.home .max-width .home-content{
-    padding-top: 220px;
-}
-
-.home .home-content .text-1 {
-    font-size: 27px;
-}
-
-.home .home-content .text-2 {
-    font-size: 75px;
-    font-weight: 600;
-    margin-left: -3px;
-}
-
-.home .home-content .text-3 {
-    font-size: 40px;
-    margin: 5px 0;
-}
-
-.home .home-content .text-3 span {
-    color: #7fd8be;
-    font-weight: 500;
-}
-
-.Cool-Photo {
-    position: relative;
-    margin-top: 150px;
-    left: 100px;
-    height: 100px;
-    width:  100px;
-}
-
-
-
-
 /* About Section */
 
-.about{
-    background: linear-gradient(to bottom, #2b2c28 0%, #1c2715 100%) !important;
-}
+/* .about{
+    background: linear-gradient(to bottom, #2b2c28 0%, #3b2a44 100%);
+    background-size: 100vh;
+} */
+/* .about .max-width img{
+    padding: auto 0 auto 50px;
+} */
 .about .title::after{
     content: "Who I am";
 }
@@ -249,7 +223,92 @@ section .title::after{
  }
  
 
- #Skills{
-    background: linear-gradient(to bottom, #1c2715 0%, #2b2922 100%) !important;
-    color : white;
+
+
+
+ /* Feedback */
+ .feedback-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top : 40px;
+    
+ }
+
+ .form-element{
+    padding: 20px;
+    padding-right: 0;
+ }
+
+ .form-element label{
+    font-weight: 600;
+    font-size: larger;
+ }
+
+ input , textarea{
+    background-color: #ffffff41; 
+    color: rgb(255, 255, 255);
+    width: 70vh;
+    height: 30px;
+    padding: 15px;
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    
+    
+ }
+
+ textarea{
+    height: 80px;
+ }
+
+ input::placeholder , textarea::placeholder{
+    color: rgba(255, 255, 255, 0.689);
+ }
+
+
+ /* star */
+
+.rating{
+    width: 220px;
+    height: 40px;
+    margin: 0 0 0 0; 
+}
+.rating label {
+    float: right;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.rating label:before {
+    content: "\2605";
+    font-size: 35px;
+    color: #ccc;
+    /* line-height: 1; */
+}
+.rating input{
+    display: none;
+}
+.rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
+    color: #ffb703;
+}
+
+
+
+/* Button */
+ .btn{
+    background-color: #23b410;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 30px;
+    border-radius: 6px;
+    border: 2px solid #23b410;
+    transition: all 0.3s ease;
+ }
+
+ .btn:hover{
+     color: white;
+     background:none;
  }

@@ -34,3 +34,13 @@ var typed = new Typed(".typing-2", {
     fadeOut: true,
 
 });
+
+const form = document.getElementById('feedbackForm');
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch('https://script.google.com/macros/s/AKfycbx85JLTYu2sKrT054y-dR6LMx-QqHmrq8szeg0twnaAeWislhmHGJab0Yo0fXxzGLrN/exec', { method: 'POST', body: new FormData(form)})
+    .then(response => alert("Thank you! your form is submitted successfully." ))
+    .then(() => { window.location.reload(); })
+    .catch(error => console.error('Error!', error.message))
+  })
+  

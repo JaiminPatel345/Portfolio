@@ -96,50 +96,41 @@
   <section id="Projects">Projects </section>
   <section id="Education"> Education </section>
   <section id="Feedback">
-
     <h1>FEEDBACK</h1>
-
     <div class="feedback-container">
 
-      <form action="" method="POST" class="form">
-
-        <div class="form-element ">
+      <form id="feedbackForm" method="post" name="feedbackForm" action=''>
+        <div class="form-element">
           <label for="nam">Name</label> <br>
-          <input type="text" id="nam" name="nam" placeholder=" [OPTIONAL] Enter your beautiful name">
+          <input type="text" id="nam" name="name" placeholder=" [OPTIONAL] Enter your beautiful name">
         </div>
-
-        <div class="form-element ">
-          <label for="email">Email </label> <br>
-          <input type="email" id="email" name="email"
-            placeholder=" [OPTIONAL] Can you provide your E-mail for further contact ?  ">
+        <div class="form-element">
+          <label for="email">Email</label> <br>
+          <input type="email" id="email" name="email" placeholder=" [OPTIONAL] Can you provide your E-mail for further contact?">
         </div>
-
-        <div class="rating  form-element">
-          <h3 class="">Rate my Portfolio :)</h3> <br>
-            <input type="radio" id="star5" name="Rating" value="1" /><label for="star5"></label>
-            <input type="radio" id="star4" name="Rating" value="2" /><label for="star4"></label>
-            <input type="radio" id="star3" name="Rating" value="3" /><label for="star3"></label>
-            <input type="radio" id="star2" name="Rating" value="4" /><label for="star2"></label>
-            <input type="radio" id="star1" name="Rating" value="5" /><label for="star1"></label>
+        <div class="rating form-element">
+          <h3>Rate my Portfolio :)</h3> <br>
+          <input type="radio" id="star5" name="Rating" value="5" /><label for="star5"></label>
+          <input type="radio" id="star4" name="Rating" value="4" /><label for="star4"></label>
+          <input type="radio" id="star3" name="Rating" value="3" /><label for="star3"></label>
+          <input type="radio" id="star2" name="Rating" value="2" /><label for="star2"></label>
+          <input type="radio" id="star1" name="Rating" value="1" /><label for="star1"></label>
         </div>
         <br><br><br>
-        <div class="form-element ">
+        <div class="form-element">
           <label for="feedback_msg">Feedback</label> <br>
-          <textarea name="feedback_msg" id="feedback_msg" placeholder="give your valuable feedback" required></textarea>
+          <textarea name="feedback" id="feedback_msg" placeholder="give your valuable feedback" required></textarea>
         </div>
-
         <br>
         <button type="submit" class="btn">SUBMIT</button>
       </form>
     </div>
-
-
   </section>
 
-
+  
+  <script src="app.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>AOS.init({ easing: 'ease-in', delay: 100, duration: 300, offset: 100 }); window.addEventListener('load', AOS.refresh);</script>
-  <script src="app.js"></script>
 </body>
 
 </html>

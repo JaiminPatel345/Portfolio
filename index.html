@@ -1,91 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
 
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
 
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- TYPE JS -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-      integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-  </head>
-  <body>
-    <header class="header">
-      <a href="#" id="name"><p>My Portfolio</p></a>
-      <nav class="navbar">
-        <div id="marker"></div>
-        <a href="#about">ABOUT ME</a>
-        <a href="#skill">SKILLS</a>
-        <a href="#Projects">PROJECTS</a>
-        <a href="#Education">EDUCATION</a>
-        <a href="#Feedback">FEEDBACK</a>
-      </nav>
-    </header>
+  <link rel="stylesheet" href="style.css" />
 
-    <!-- home section start-->
-    <section class="home" id="home">
-      <div class="max-width">
-        <div class="home-content">
-          <div class="text-1" data-aos="fade-up">Hello, my name is</div>
-          <div class="text-2">Jaimin Detroja</div>
-          <div class="text-3">I'm a <span class="typing"></span></div>
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" id="logo">
+      <p>My Portfolio</p>
+    </a>
+    <nav class="navbar">
+      <div id="marker"></div>
+      <a href="#about">ABOUT ME</a>
+      <a href="#Skills">SKILLS</a>
+      <a href="#Projects">PROJECTS</a>
+      <a href="#Education">EDUCATION</a>
+      <a href="#Feedback">FEEDBACK</a>
+    </nav>
+  </header>
+
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">Jaimin Detroja</div>
+        <div class="text-3">I'm a <span class="typing"></span></div>
+      </div>
+    </div>
+    <div class="Cool-Photo">
+      <img src="SRC/Cool-Photo.png" alt="Animation" />
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right">
+          <img src="SRC/My Image.jpg" alt="" />
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm Jaimin and Im a <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            I am Computer engineering undergraduate student of BVM . I am very
+            passionate and hardworking computer engineering student looking
+            forward to become a skilled Software Engineer and serve my
+            excellence to the company. I am enthusiastic person and love to
+            learn new things. The field of technology always amazes me that's
+            why i choose the field of computer engineering to follow my
+            passion.
+          </p>
+          <a href="https://docs.google.com/document/d/15w9-T-vXKRKAeaUXSWK7vrMaBZlj6enaDrsvoVv-Hng/edit?usp=sharing">Download
+            Resume</a>
         </div>
       </div>
-      <div class="Cool-Photo">
-        <img src="SRC/Cool-Photo.png" alt="Animation" />
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- about section -->
-    <section class="about" id="about">
-      <div class="max-width">
-        <h2 class="title" data-aos="fade-down">About Me</h2>
-        <div class="about-content">
-          <div class="column left" data-aos="fade-right">
-            <img src="SRC/My Image.jpg" alt="" />
-          </div>
-          <div class="column right" data-aos="fade-up">
-            <div class="text">
-              I'm Jaimin and Im a <span class="typing-2"></span>
-            </div>
-            <p class="paragraph">
-              I am Computer engineering undergraduate student of BVM . I am very
-              passionate and hardworking computer engineering student looking
-              forward to become a skilled Software Engineer and serve my
-              excellence to the company. I am enthusiastic person and love to
-              learn new things. The field of technology always amazes me that's
-              why i choose the field of computer engineering to follow my
-              passion.
-            </p>
-            <a
-              href="https://docs.google.com/document/d/15w9-T-vXKRKAeaUXSWK7vrMaBZlj6enaDrsvoVv-Hng/edit?usp=sharing"
-              >Download Resume</a
-            >
-          </div>
+  <!-- skills section -->
+  <section id="Skills">
+    <h2>Sorry for that :/ </h2>
+    <h2>I will complete this after my End sem examination :)</h2>
+  </section>
+
+  <!-- Projects -->
+  <section id="Projects">Projects </section>
+  <section id="Education"> Education </section>
+  <section id="Feedback">
+
+    <h1>FEEDBACK</h1>
+
+    <div class="feedback-container">
+
+      <form action="" method="POST" class="form">
+
+        <div class="form-element ">
+          <label for="nam">Name</label> <br>
+          <input type="text" id="nam" name="nam" placeholder=" [OPTIONAL] Enter your beautiful name">
         </div>
-      </div>
-    </section>
 
-    <!-- skills section -->
-    <section id="Skills"> 
-      <h2>Sorry for that :/ </h2>
-      <h2>I will complete this after my End sem examination :)</h2>
-    </section>
-    <section id="Projects"> </section>
-    <section id="Education"> </section>
-    <section id="Feedback"> </section>
+        <div class="form-element ">
+          <label for="email">Email </label> <br>
+          <input type="email" id="email" name="email"
+            placeholder=" [OPTIONAL] Can you provide your E-mail for further contact ?  ">
+        </div>
+
+        <div class="rating  form-element">
+          <h3 class="">Rate my Portfolio :)</h3> <br>
+            <input type="radio" id="star5" name="Rating" value="1" /><label for="star5"></label>
+            <input type="radio" id="star4" name="Rating" value="2" /><label for="star4"></label>
+            <input type="radio" id="star3" name="Rating" value="3" /><label for="star3"></label>
+            <input type="radio" id="star2" name="Rating" value="4" /><label for="star2"></label>
+            <input type="radio" id="star1" name="Rating" value="5" /><label for="star1"></label>
+        </div>
+        <br><br><br>
+        <div class="form-element ">
+          <label for="feedback_msg">Feedback</label> <br>
+          <textarea name="feedback_msg" id="feedback_msg" placeholder="give your valuable feedback" required></textarea>
+        </div>
+
+        <br>
+        <button type="submit" class="btn">SUBMIT</button>
+      </form>
+    </div>
 
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
-    <script src="app.js"></script>
-  </body>
+  </section>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({ easing: 'ease-in', delay: 100, duration: 300, offset: 100 }); window.addEventListener('load', AOS.refresh);</script>
+  <script src="app.js"></script>
+</body>
+
 </html>

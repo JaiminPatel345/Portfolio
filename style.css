@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "ubuntu" , sans-serif ;
 }
 html{
    scroll-behavior:smooth;
@@ -33,7 +34,7 @@ body{
     border-bottom: 2px solid rgba(255, 254, 254, 0.15);
 } 
 
-#name{
+#logo{
     font-size: 25px;
     color: #a9f8fb;
     padding: 25px;
@@ -112,6 +113,7 @@ body{
 
 section{
     padding: 120px 0;
+    height: 100vh;
     padding-bottom: 300px;
 }
 .about, .services, .skills, .contact, footer{
@@ -158,10 +160,10 @@ section .title::after{
 
 /* About Section */
 
-.about{
+/* .about{
     background: linear-gradient(to bottom, #2b2c28 0%, #3b2a44 100%);
     background-size: 100vh;
-}
+} */
 /* .about .max-width img{
     padding: auto 0 auto 50px;
 } */
@@ -220,3 +222,93 @@ section .title::after{
      background:none;
  }
  
+
+
+
+
+ /* Feedback */
+ .feedback-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top : 40px;
+    
+ }
+
+ .form-element{
+    padding: 20px;
+    padding-right: 0;
+ }
+
+ .form-element label{
+    font-weight: 600;
+    font-size: larger;
+ }
+
+ input , textarea{
+    background-color: #ffffff41; 
+    color: rgb(255, 255, 255);
+    width: 70vh;
+    height: 30px;
+    padding: 15px;
+    margin-top: 15px;
+    /* margin-bottom: 20px; */
+    
+    
+ }
+
+ textarea{
+    height: 80px;
+ }
+
+ input::placeholder , textarea::placeholder{
+    color: rgba(255, 255, 255, 0.689);
+ }
+
+
+ /* star */
+
+.rating{
+    width: 220px;
+    height: 40px;
+    margin: 0 0 0 0; 
+}
+.rating label {
+    float: right;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.rating label:before {
+    content: "\2605";
+    font-size: 35px;
+    color: #ccc;
+    /* line-height: 1; */
+}
+.rating input{
+    display: none;
+}
+.rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
+    color: #ffb703;
+}
+
+
+
+/* Button */
+ .btn{
+    background-color: #23b410;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 30px;
+    border-radius: 6px;
+    border: 2px solid #23b410;
+    transition: all 0.3s ease;
+ }
+
+ .btn:hover{
+     color: white;
+     background:none;
+ }

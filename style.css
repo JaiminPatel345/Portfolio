@@ -7,20 +7,21 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "ubuntu" , sans-serif ;
+    font-family: "ubuntu", sans-serif;
 }
-html{
-   scroll-behavior:smooth;
+
+html {
+    scroll-behavior: smooth;
 }
 
 
-body{
+body {
     color: white;
     /* background-image: url(SRC/glowing-edges-hexagonal-texture.jpg); */
     background-color: #2b2c28;
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     display: flex;
@@ -30,11 +31,11 @@ body{
     z-index: 999;
     justify-content: space-between;
     align-items: center;
-    backdrop-filter: blur(8px) ;
+    backdrop-filter: blur(8px);
     border-bottom: 2px solid rgba(255, 254, 254, 0.15);
-} 
+}
 
-#logo{
+#logo {
     font-size: 25px;
     color: #a9f8fb;
     padding: 25px;
@@ -42,23 +43,23 @@ body{
     cursor: default;
 }
 
-.header #marker{
+.header #marker {
     position: absolute;
     background-color: #81f7e5;
     bottom: 13px;
     height: 4px;
     width: 0;
     border-radius: 4px;
-    transition: 0.5s; 
+    transition: 0.5s;
 }
 
-.navbar a{
+.navbar a {
     margin-right: 35px;
     color: aqua;
 
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: rgb(255, 255, 255);
 }
 
@@ -79,7 +80,7 @@ body{
     margin: auto 0 auto 40px;
 }
 
-.home .max-width .home-content{
+.home .max-width .home-content {
     padding-top: 220px;
 }
 
@@ -107,26 +108,28 @@ body{
     position: relative;
     left: 100px;
     height: 100px;
-    width:  100px;
+    width: 100px;
 }
 
 
-section{
+section {
     padding: 120px 0;
-    height: 100vh;
+    height: auto;
     padding-bottom: 300px;
 }
-.about, .services, .skills, .contact, footer{
-    font-family: 'Poppins',sans-serif;
+
+.about, .services, .skills, .contact, footer {
+    font-family: 'Poppins', sans-serif;
 }
-.about .about-content, .services .serv-content, .skills .skills-content, .contact, .contact-content{
+
+.about .about-content, .services .serv-content, .skills .skills-content, .contact, .contact-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-section .title{
+section .title {
     position: relative;
     text-align: center;
     color: #23b410;
@@ -136,7 +139,8 @@ section .title{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-section .title::before{
+
+section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -146,7 +150,8 @@ section .title::before{
     background: green;
     transform: translateX(-50%);
 }
-section .title::after{
+
+section .title::after {
     position: absolute;
     bottom: -14px;
     left: 50%;
@@ -167,137 +172,172 @@ section .title::after{
 /* .about .max-width img{
     padding: auto 0 auto 50px;
 } */
-.about .title::after{
+.about .title {
+    color: rgb(0, 200, 255);
+}
+
+.about .title::before {
+    background-color: rgb(119, 229, 235);
+}
+
+.about .title::after {
     content: "Who I am";
+    color: rgb(149, 193, 205);
 }
-.about .about-content .left{
-   width: 45%;
+
+.about .about-content {
+    display: flex;
+    justify-content: space-around;
 }
-.about .about-content .left img{
-    height: 370px;
+
+.about .about-content .left {
+    width: 45vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about .about-content .left img {
+    height: 370px ;
     width: 370px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     object-fit: cover;
     border-radius: 6px;
     box-shadow: 0px 0px 7px #b2ff9e;
     transition: all 0.3s ease;
 }
-.about .about-content .left img:hover{
+
+.about .about-content .left img:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 18px #b2ff9e;
 }
-.about .about-content .right{
+
+.about .about-content .right {
     width: 55%;
- }
- .about .about-content .right .text{
+}
+
+.about .about-content .right .text {
     color: white;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
- }
- .about .about-content .right .text span{
-     color: #affc41;
- }
- .about .about-content .right .paragraph{
-     color: #7ebf23;
-     font-size: 18px;
- }
- .about .about-content .right .p{
-     text-align: justify;
- }
- .about .about-content .right a{
+}
+
+.about .about-content .right .text span {
+    color: #95ffdf;
+}
+
+.about .about-content .right .paragraph {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.about .about-content .right .p {
+    text-align: justify;
+}
+
+.link {
     display: inline-block;
     background: none;
-    color: #23b410;
+    color: #14cd9f;
     margin-top: 20px;
     font-size: 20px;
     font-weight: 500;
     padding: 5px 30px;
     border-radius: 6px;
-    border: 2px solid #23b410;
+    border: 2px solid #01ffd5;
     transition: all 0.3s ease;
- }
- .about .about-content .right a:hover{
-     color: white;
-     background:none;
- }
- 
+    z-index: 99;
+}
+
+.link:hover {
+    color: white;
+    background: none;
+}
 
 
 
 
- /* Feedback */
- .feedback-container{
+
+/* Feedback */
+.feedback-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top : 40px;
-    
- }
+    margin-top: 40px;
 
- .form-element{
+}
+
+.form-element {
     padding: 20px;
     padding-right: 0;
- }
+}
 
- .form-element label{
+input, textarea {
+    border-radius: 10px;
+}
+
+.form-element label {
     font-weight: 600;
     font-size: larger;
- }
+}
 
- input , textarea{
-    background-color: #ffffff41; 
+input, textarea {
+    background-color: #ffffff41;
     color: rgb(255, 255, 255);
     width: 70vh;
     height: 30px;
     padding: 15px;
     margin-top: 15px;
     /* margin-bottom: 20px; */
-    
-    
- }
 
- textarea{
+
+}
+
+textarea {
     height: 80px;
- }
+}
 
- input::placeholder , textarea::placeholder{
+input::placeholder, textarea::placeholder {
     color: rgba(255, 255, 255, 0.689);
- }
+}
 
 
- /* star */
+/* star */
 
-.rating{
+.rating {
     width: 220px;
     height: 40px;
-    margin: 0 0 0 0; 
+    margin: 0 0 0 0;
 }
+
 .rating label {
     float: right;
     width: 40px;
     height: 40px;
     cursor: pointer;
-    
+
 }
+
 .rating label:before {
     content: "\2605";
     font-size: 35px;
     color: #ccc;
     /* line-height: 1; */
 }
-.rating input{
+
+.rating input {
     display: none;
 }
-.rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
+
+.rating input:checked~label:before, .rating:not(:checked)>label:hover:before, .rating:not(:checked)>label:hover~label:before {
     color: #ffb703;
 }
 
 
 
 /* Button */
- .btn{
+.btn {
     background-color: #23b410;
     color: white;
     font-size: 15px;
@@ -306,9 +346,90 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid #23b410;
     transition: all 0.3s ease;
- }
+}
 
- .btn:hover{
-     color: white;
-     background:none;
- }
+.btn:hover {
+    color: white;
+    background: none;
+}
+
+
+
+/* Education  */
+#Education {
+    height: auto;
+}
+
+#Education img {
+    margin: 20px;
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+#college, #hsc, #ssc, #gujcet {
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 0 5px 10px rgb(139, 139, 139);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.171);
+    margin: 60px 5% 50px 5%;
+}
+
+
+
+#Education h1 {
+    color: #9ae99f;
+}
+
+#Education ul li {
+    align-items: center;
+    list-style-type: none;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#Education ul li a {
+    color: #01ffd5;
+}
+
+#detailssc, #detailhsc, #detailgujcet, #detailclg {
+    margin: 30px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    #college, #hsc, #ssc, #gujcet, .about-content {
+        display: block;
+    }
+
+    #about .column .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width:375px) {
+    #Education img {
+        max-width: 250px;
+    }
+
+    #about img{
+        /* height: 100px; */
+        width: 80%;
+        margin: 0;
+        justify-self: center;
+
+    }
+
+
+
+
+}

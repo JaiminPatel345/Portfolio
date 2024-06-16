@@ -6,27 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
 
-  <link rel="stylesheet" href="style.css" />
-
+  
   <!-- AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+  
   <!-- Google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
-
-
+  href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+  rel="stylesheet">
+  
+  
   <!-- font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+  
+  
   <!-- TYPE JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -38,6 +38,7 @@
       <div id="marker"></div>
       <a href="#about">ABOUT ME</a>
       <a href="#Skills">SKILLS</a>
+      <!-- <a href="#Achivements">ACHIEVEMENTS</a> -->
       <a href="#Projects">PROJECTS</a>
       <a href="#Education">EDUCATION</a>
       <a href="#Feedback">FEEDBACK</a>
@@ -88,15 +89,68 @@
 
   <!-- skills section -->
   <section id="Skills">
-    <h2>Sorry for that :/ </h2>
-    <h2>I will complete this after my End sem examination :)</h2>
+    <h2 class="title" data-aos="fade-down">Skills</h2>
   </section>
 
-  <!-- Projects -->
-  <section id="Projects">Projects </section>
+  <!-- Achievements -->
+  <!-- <section id="Achievements">
+    <h2 class="title" data-aos="fade-down">Achievements</h2>
+  </section> -->
 
+  <!-- Projects -->
+  <section id="Projects">
+    <h2 class="title" data-aos="fade-down">Projects</h2>
+  
+    <div class="project" data-aos="fade-right">
+      <h1 class="project-title">WanderLust</h1><br>
+      <ul>
+          <li>Role: Full Stack developer</li>
+          <li>A website that helps new user to choose places for their vacation</li>
+          <li>Features : <br>
+              <ol>
+                  <li>&nbsp;&nbsp;1. Authentication & Authorization</li>
+                  <li>&nbsp;&nbsp;2. Cloudinary to upload images</li>
+                  <li>&nbsp;&nbsp;3. Login Credencials</li>
+                  <li>&nbsp;&nbsp;4. MVC structure</li>
+                  <li>&nbsp;&nbsp;5. RESTful APIs</li>
+              </ol>
+          </li>
+          <br>
+          <li>Technologies Used : Javascript , Node.js , Express.js , npm ,  MongoDB ,  HTML5 , CSS3 , Bootstrap  , Git</li><br>
+          <li id="certification"><a href="https://github.com/JaiminPatel345/Wanderlust">GitHub Repo Link</a></li>
+      </ul>
+  </div>
+
+
+  <!-- <div class="project" data-aos="fade-right">
+    <h1 class="project-title">Simple ChatApp</h1><br>
+    <ul>
+        <li>Role: Full Stack developer</li>
+        <li>A website that helps new user to choose places for their vacation</li>
+        <li>Features : <br>
+            <ol>
+                <li>&nbsp;&nbsp;1. Authentication & Authorization</li>
+                <li>&nbsp;&nbsp;2. Cloudinary to upload images</li>
+                <li>&nbsp;&nbsp;3. Login Credencials</li>
+                <li>&nbsp;&nbsp;4. MVC structure</li>
+                <li>&nbsp;&nbsp;5. RESTful APIs</li>
+            </ol>
+        </li>
+        <br>
+        <li>Technologies Used : Javascript , Node.js , Express.js , npm ,  MongoDB ,  HTML5 , CSS3 , Bootstrap  , Git</li><br>
+        <li id="certification"><a href="https://github.com/JaiminPatel345/Wanderlust">GitHub Repo Link</a></li>
+    </ul>
+</div> -->
+  
+  </section>
+
+
+
+  <!-- Educations -->
   <section id="Education">
-    <div id="college" style="margin-top: 120px;">
+    <h2 class="title" data-aos="fade-down">Education</h2>
+
+    <div id="college" data-aos="fade-right" style="margin-top: 120px;">
         <div><a href="https://bvmengineering.ac.in/"><img src="SRC/bvm.jpg"></a></div>
         <div id="detailclg">
             <h1>B.Tech. Computer Engineering</h1><br>
@@ -109,7 +163,7 @@
         </div>
     </div>
 
-    <div id="jee">
+    <!-- <div id="jee" data-aos="fade-right">
       <div><img src="SRC/jee.jpg"></div>
       <div id="detailjee">
             <h1>Jee Advance Examination</h1><br>
@@ -123,7 +177,7 @@
         </div>
     </div>
 
-    <div id="gujcet">
+    <div id="gujcet" data-aos="fade-right">
       <div><img src="SRC/bhs.jpg"></div>
       <div id="detailgujcet">
             <h1>GUJCET Examination</h1><br>
@@ -136,9 +190,9 @@
                 <li> <a class="link" href="https://drive.google.com/file/d/1ZYyzpBVl5urJLix6XcQFZUl4UAMpbPCJ/view?usp=sharing" >MarkSheet</a></li>
             </ul>
         </div>
-    </div>
+    </div> -->
 
-    <div id="hsc">
+    <div id="hsc" data-aos="fade-right">
         <div><img src="SRC/bhs.jpg"></div>
         <div id="detailhsc">
             <h1>HSC Science</h1><br>
@@ -146,6 +200,7 @@
                 <li>School : Baroda High School Danteshwar</li>
                 <li>Percentage : 88.33%</li>
                 <li>Percentile : 97 Pr</li>
+                <li>Board : GSEB </li>
                 <li>Year : 2022</li>
                 <br>
                 <li> <a class="link" href="https://drive.google.com/file/d/1UFuNtISyI0JMPwvN72k8exAqFIgIRqPU/view?usp=sharing" >MarkSheet</a></li>
@@ -153,14 +208,15 @@
         </div>
     </div>
 
-    <div id="ssc">
+    <div id="ssc" data-aos="fade-right">
         <div><img src="SRC/nutan.jpg"></div>
         <div id="detailssc">
             <h1>SSC Board</h1><br>
             <ul>
-                <li>School : Baroda High School Danteshwar</li>
-                <li>Percentage : 85.50%</li>
-                <li>Percentile : 98.80 Pr</li>
+                <li>School : Nutan Vidhyalay </li>
+                <li>Percentage : 86.83%</li>
+                <li>Percentile : 99.16 Pr</li>
+                <li>Board : GSEB </li>
                 <li>Year : 2020</li>
                 <br>
                 <li> <a class="link" href="https://drive.google.com/file/d/1C2yNOtfISf-UanG3KNNvuVKFewAWiJQK/view?usp=sharing" >MarkSheet</a></li>
@@ -172,7 +228,7 @@
 
 
   <section id="Feedback">
-    <h1>FEEDBACK</h1>
+    <h2 class="title" data-aos="fade-down">Feedback</h2>
     <div class="feedback-container">
 
       <form id="feedbackForm" method="post" name="feedbackForm" action=''>

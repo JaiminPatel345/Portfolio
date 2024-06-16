@@ -14,6 +14,16 @@ html {
     scroll-behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+    color: #01ffd5;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 
 body {
     color: white;
@@ -374,14 +384,14 @@ input::placeholder, textarea::placeholder {
     border: 2px solid black;
     box-shadow: 0 5px 10px rgb(139, 139, 139);
     border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.171);
+    background-color: rgba(255, 255, 255, 0.175);
     margin: 60px 5% 50px 5%;
 }
 
 
 
 #Education h1 {
-    color: #9ae99f;
+    color: #29f878;
 }
 
 #Education ul li {
@@ -400,6 +410,49 @@ input::placeholder, textarea::placeholder {
 }
 
 
+/* Project */
+ .title {
+    color: rgb(0, 200, 255) !important;
+}
+
+.title::before {
+    background-color: rgb(119, 229, 235) !important;
+}
+
+ .title::after {
+    /* content: ""; */
+    color: rgb(149, 193, 205) !important;
+}
+
+
+.project {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid black;
+    box-shadow: 0 5px 10px rgb(137, 133, 133);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.175);
+    margin: 60px 5% 50px 5%;
+    padding : 50px;
+}
+.project  h1{
+    color: #29f878;
+    font-weight: bold;
+}
+
+.project  ul li{
+    align-items: center;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+/* responsible */
 @media screen and (max-width: 1050px) {
     #college, #hsc, #ssc, #gujcet, .about-content {
         display: block;

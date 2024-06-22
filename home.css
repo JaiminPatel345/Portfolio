@@ -1,0 +1,45 @@
+/* Home */
+
+.home {
+    display: flex;
+    /* background-color: #0F171E; */
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .max-width .home-content {
+    padding-top: 220px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: #7fd8be;
+    font-weight: 500;
+}
+
+.Cool-Photo {
+    position: relative;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+}

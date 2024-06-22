@@ -14,12 +14,12 @@ html {
     scroll-behavior: smooth;
 }
 
-a{
+a {
     text-decoration: none;
     color: #01ffd5;
 }
 
-a:hover{
+a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
@@ -31,95 +31,9 @@ body {
     background-color: #2b2c28;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    display: flex;
-    /* height: 100px; */
-    width: 100%;
-    background-color: rgba(255, 254, 254, 0.1);
-    z-index: 999;
-    justify-content: space-between;
-    align-items: center;
-    backdrop-filter: blur(8px);
-    border-bottom: 2px solid rgba(255, 254, 254, 0.15);
-}
-
-#logo {
-    font-size: 25px;
-    color: #a9f8fb;
-    padding: 25px;
-    font-weight: 600;
-    cursor: default;
-}
-
-.header #marker {
-    position: absolute;
-    background-color: #81f7e5;
-    bottom: 13px;
-    height: 4px;
-    width: 0;
-    border-radius: 4px;
-    transition: 0.5s;
-}
-
-.navbar a {
-    margin-right: 35px;
-    color: aqua;
-
-}
-
-.navbar a:hover {
-    color: rgb(255, 255, 255);
-}
 
 
 
-/* Home */
-
-.home {
-    display: flex;
-    /* background-color: #0F171E; */
-    height: 100vh;
-    color: white;
-    min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.home .max-width {
-    margin: auto 0 auto 40px;
-}
-
-.home .max-width .home-content {
-    padding-top: 220px;
-}
-
-.home .home-content .text-1 {
-    font-size: 27px;
-}
-
-.home .home-content .text-2 {
-    font-size: 75px;
-    font-weight: 600;
-    margin-left: -3px;
-}
-
-.home .home-content .text-3 {
-    font-size: 40px;
-    margin: 5px 0;
-}
-
-.home .home-content .text-3 span {
-    color: #7fd8be;
-    font-weight: 500;
-}
-
-.Cool-Photo {
-    position: relative;
-    left: 100px;
-    height: 100px;
-    width: 100px;
-}
 
 
 section {
@@ -182,67 +96,6 @@ section .title::after {
 /* .about .max-width img{
     padding: auto 0 auto 50px;
 } */
-.about .title {
-    color: rgb(0, 200, 255);
-}
-
-.about .title::before {
-    background-color: rgb(119, 229, 235);
-}
-
-.about .title::after {
-    content: "Who I am";
-    color: rgb(149, 193, 205);
-}
-
-.about .about-content {
-    display: flex;
-    justify-content: space-around;
-}
-
-.about .about-content .left {
-    width: 45vh;
-    display: flex;
-    justify-content: center;
-}
-
-.about .about-content .left img {
-    height: 370px ;
-    width: 370px;
-    object-fit: cover;
-    border-radius: 6px;
-    box-shadow: 0px 0px 7px #b2ff9e;
-    transition: all 0.3s ease;
-}
-
-.about .about-content .left img:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 18px #b2ff9e;
-}
-
-.about .about-content .right {
-    width: 55%;
-}
-
-.about .about-content .right .text {
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.about .about-content .right .text span {
-    color: #95ffdf;
-}
-
-.about .about-content .right .paragraph {
-    color: #ffffff;
-    font-size: 18px;
-}
-
-.about .about-content .right .p {
-    text-align: justify;
-}
 
 .link {
     display: inline-block;
@@ -267,83 +120,6 @@ section .title::after {
 
 
 
-/* Feedback */
-.feedback-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-
-}
-
-.form-element {
-    padding: 20px;
-    padding-right: 0;
-}
-
-input, textarea {
-    border-radius: 10px;
-}
-
-.form-element label {
-    font-weight: 600;
-    font-size: larger;
-}
-
-input, textarea {
-    background-color: #ffffff41;
-    color: rgb(255, 255, 255);
-    width: 70vh;
-    height: 30px;
-    padding: 15px;
-    margin-top: 15px;
-    /* margin-bottom: 20px; */
-
-
-}
-
-textarea {
-    height: 80px;
-}
-
-input::placeholder, textarea::placeholder {
-    color: rgba(255, 255, 255, 0.689);
-}
-
-
-/* star */
-
-.rating {
-    width: 220px;
-    height: 40px;
-    margin: 0 0 0 0;
-}
-
-.rating label {
-    float: right;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-
-}
-
-.rating label:before {
-    content: "\2605";
-    font-size: 35px;
-    color: #ccc;
-    /* line-height: 1; */
-}
-
-.rating input {
-    display: none;
-}
-
-.rating input:checked~label:before, .rating:not(:checked)>label:hover:before, .rating:not(:checked)>label:hover~label:before {
-    color: #ffb703;
-}
-
-
 
 /* Button */
 .btn {
@@ -364,54 +140,10 @@ input::placeholder, textarea::placeholder {
 
 
 
-/* Education  */
-#Education {
-    height: auto;
-}
-
-#Education img {
-    margin: 20px;
-    max-width: 300px;
-    max-height: 500px;
-    border-radius: 10px;
-}
-
-#college, #jee , #hsc, #ssc, #gujcet {
-    display: flex;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
-    border: 2px solid black;
-    box-shadow: 0 5px 10px rgb(139, 139, 139);
-    border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.175);
-    margin: 60px 5% 50px 5%;
-}
 
 
 
-#Education h1 {
-    color: #29f878;
-}
-
-#Education ul li {
-    align-items: center;
-    list-style-type: none;
-    color: #ffffff;
-    font-weight: 400;
-}
-
-#Education ul li a {
-    color: #01ffd5;
-}
-
-#detailssc, #detailjee ,  #detailhsc, #detailgujcet, #detailclg {
-    margin: 30px;
-}
-
-
-/* Project */
- .title {
+.title {
     color: rgb(0, 200, 255) !important;
 }
 
@@ -419,34 +151,10 @@ input::placeholder, textarea::placeholder {
     background-color: rgb(119, 229, 235) !important;
 }
 
- .title::after {
+.title::after {
     /* content: ""; */
     color: rgb(149, 193, 205) !important;
 }
-
-
-.project {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 400;
-    border: 2px solid black;
-    box-shadow: 0 5px 10px rgb(137, 133, 133);
-    border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.175);
-    margin: 60px 5% 50px 5%;
-    padding : 50px;
-}
-.project  h1{
-    color: #29f878;
-    font-weight: bold;
-}
-
-.project  ul li{
-    align-items: center;
-    list-style-type: none;
-}
-
-
 
 
 
@@ -458,7 +166,7 @@ input::placeholder, textarea::placeholder {
         display: block;
     }
 
-    #about .about-content{
+    #about .about-content {
         flex-direction: column;
     }
 
@@ -469,7 +177,7 @@ input::placeholder, textarea::placeholder {
         flex-direction: column;
     }
 
-    #about .left img{
+    #about .left img {
         margin-bottom: 100px;
     }
 
@@ -481,7 +189,7 @@ input::placeholder, textarea::placeholder {
         max-width: 250px;
     }
 
-    #about img{
+    #about img {
         /* height: 100px; */
         width: 80%;
         margin: 0;
@@ -489,22 +197,19 @@ input::placeholder, textarea::placeholder {
 
     }
 
-    #about .right{
+    #about .right {
         justify-self: start;
         align-self: flex-start;
         margin-left: 30px;
     }
 
-    #about .right .text{
+    #about .right .text {
         width: 300px;
         font-weight: 600;
     }
 
-    #about p{
+    #about p {
         width: 300px;
     }
-
-
-
 
 }

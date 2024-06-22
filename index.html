@@ -6,27 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
 
-  
+
   <!-- AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  
+
   <!-- Google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-  href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-  rel="stylesheet">
-  
-  
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+
   <!-- font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  
+
+
   <!-- TYPE JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-  integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- All css -->
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="navbar.css" />
+  <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="skill.css" />
+  <link rel="stylesheet" href="project.css" />
+  <link rel="stylesheet" href="education.css" />
+  <link rel="stylesheet" href="feedback.css" />
+
 </head>
 
 <body>
@@ -80,7 +90,8 @@
             why i choose the field of computer engineering to follow my
             passion.
           </p>
-          <a class="link" href="https://docs.google.com/document/d/15w9-T-vXKRKAeaUXSWK7vrMaBZlj6enaDrsvoVv-Hng/edit?usp=sharing">Show
+          <a class="link"
+            href="https://docs.google.com/document/d/15w9-T-vXKRKAeaUXSWK7vrMaBZlj6enaDrsvoVv-Hng/edit?usp=sharing">Show
             Resume</a>
         </div>
       </div>
@@ -100,29 +111,38 @@
   <!-- Projects -->
   <section id="Projects">
     <h2 class="title" data-aos="fade-down">Projects</h2>
-  
+
     <div class="project" data-aos="fade-right">
       <h1 class="project-title">WanderLust</h1><br>
       <ul>
-          <li>Role: Full Stack developer</li>
-          <li>A website that helps new user to choose places for their vacation</li>
-          <li>Features : <br>
-              <ol>
-                  <li>&nbsp;&nbsp;1. Authentication & Authorization</li>
-                  <li>&nbsp;&nbsp;2. Cloudinary to upload images</li>
-                  <li>&nbsp;&nbsp;3. Login Credencials</li>
-                  <li>&nbsp;&nbsp;4. MVC structure</li>
-                  <li>&nbsp;&nbsp;5. RESTful APIs</li>
-              </ol>
-          </li>
+        <li> <span class="sub-title">Roles : </span> &nbsp; Full Stack developer</li> <br>
+        <li><span class="sub-title">Description : </span>
+          &nbsp; A website that helps new user to choose places for their vacation or for functions . same as Airbub
+        </li>
+        <br>
+        <li> <span class="sub-title">Technologies & languages Used</span> : &nbsp; Javascript , Node.js , Express.js ,
+          npm , MongoDB , HTML5 ,CSS3 ,Bootstrap , Git</li>
+        <li>
           <br>
-          <li>Technologies Used : Javascript , Node.js , Express.js , npm ,  MongoDB ,  HTML5 , CSS3 , Bootstrap  , Git</li><br>
-          <li id="certification"><a href="https://github.com/JaiminPatel345/Wanderlust">GitHub Repo Link</a></li>
+          <div class="sub-title">Features </div>
+          <ol>
+            <li>&nbsp;&nbsp;1. Full stack project</li>
+            <li>&nbsp;&nbsp;1. Authentication & Authorization</li>
+            <li>&nbsp;&nbsp;2. Cloudinary to upload images</li>
+            <li>&nbsp;&nbsp;3. Login Credentials</li>
+            <li>&nbsp;&nbsp;4. MVC structure</li>
+            <li>&nbsp;&nbsp;5. RESTful APIs</li>
+          </ol>
+        </li>
+        <br>
+
+        <br>
+        <li id="certification"><a href="https://github.com/JaiminPatel345/Wanderlust">GitHub Repo Link</a></li>
       </ul>
-  </div>
+    </div>
 
 
-  <!-- <div class="project" data-aos="fade-right">
+    <!-- <div class="project" data-aos="fade-right">
     <h1 class="project-title">Simple ChatApp</h1><br>
     <ul>
         <li>Role: Full Stack developer</li>
@@ -141,7 +161,7 @@
         <li id="certification"><a href="https://github.com/JaiminPatel345/Wanderlust">GitHub Repo Link</a></li>
     </ul>
 </div> -->
-  
+
   </section>
 
 
@@ -151,16 +171,19 @@
     <h2 class="title" data-aos="fade-down">Education</h2>
 
     <div id="college" data-aos="fade-right" style="margin-top: 120px;">
-        <div><a href="https://bvmengineering.ac.in/"><img src="SRC/bvm.jpg"></a></div>
-        <div id="detailclg">
-            <h1>B.Tech. Computer Engineering</h1><br>
-            <ul>
-                <li>College : Birla Vishvakarma Mahavidyalaya (BVM) </li>
-                <li>GPA : 8.29</li>
-                <li>2022 - current ( till 2026 )</li>
-                <li> <a class="link" href="https://drive.google.com/file/d/13oiBxtVP7iV8aPIoatRxgre_EQsh2o_e/view?usp=sharing" >MarkSheet</a></li>
-            </ul>
-        </div>
+      <div><a href="https://bvmengineering.ac.in/"><img src="SRC/bvm.jpg"></a></div>
+      <div id="detailclg">
+        <h1>B.Tech. Computer Engineering</h1><br>
+        <ul>
+          <li><span class="sub-title">College : </span> &nbsp; Birla Vishvakarma Mahavidyalaya (BVM) </li>
+          <li>&nbsp;&nbsp;2022 - current ( till 2026 )</li>
+          <li> <span class="sub-title">GPA : </span> &nbsp; 8.29</li>
+          <li><span class="sub-title">University : </span> &nbsp; GTU ( Gujarat Technical University )</li>
+          <li> <a class="link"
+              href="https://drive.google.com/file/d/13oiBxtVP7iV8aPIoatRxgre_EQsh2o_e/view?usp=sharing">MarkSheet</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <!-- <div id="jee" data-aos="fade-right">
@@ -193,37 +216,41 @@
     </div> -->
 
     <div id="hsc" data-aos="fade-right">
-        <div><img src="SRC/bhs.jpg"></div>
-        <div id="detailhsc">
-            <h1>HSC Science</h1><br>
-            <ul>
-                <li>School : Baroda High School Danteshwar</li>
-                <li>Percentage : 88.33%</li>
-                <li>Percentile : 97 Pr</li>
-                <li>Board : GSEB </li>
-                <li>Year : 2022</li>
-                <br>
-                <li> <a class="link" href="https://drive.google.com/file/d/1UFuNtISyI0JMPwvN72k8exAqFIgIRqPU/view?usp=sharing" >MarkSheet</a></li>
-            </ul>
-        </div>
+      <div><img src="SRC/bhs.jpg"></div>
+      <div id="detailhsc">
+        <h1>HSC Science</h1><br>
+        <ul>
+          <li> <span class="sub-title">School : </span> &nbsp; Baroda High School Danteshwar</li>
+          <li><span class="sub-title">Percentage : </span> &nbsp; 88.33%</li>
+          <li><span class="sub-title">Percentile : </span> &nbsp; 97 Pr</li>
+          <li><span class="sub-title">Board : </span> &nbsp; GSEB </li>
+          <li><span class="sub-title">Year : </span> &nbsp; 2022</li>
+          <br>
+          <li> <a class="link"
+              href="https://drive.google.com/file/d/1UFuNtISyI0JMPwvN72k8exAqFIgIRqPU/view?usp=sharing">MarkSheet</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div id="ssc" data-aos="fade-right">
-        <div><img src="SRC/nutan.jpg"></div>
-        <div id="detailssc">
-            <h1>SSC Board</h1><br>
-            <ul>
-                <li>School : Nutan Vidhyalay </li>
-                <li>Percentage : 86.83%</li>
-                <li>Percentile : 99.16 Pr</li>
-                <li>Board : GSEB </li>
-                <li>Year : 2020</li>
-                <br>
-                <li> <a class="link" href="https://drive.google.com/file/d/1C2yNOtfISf-UanG3KNNvuVKFewAWiJQK/view?usp=sharing" >MarkSheet</a></li>
-            </ul>
-        </div>
+      <div><img src="SRC/nutan.jpg"></div>
+      <div id="detailssc">
+        <h1>SSC Board</h1><br>
+        <ul>
+          <li> <span class="sub-title">School : </span> &nbsp; Nutan Vidhyalay</li>
+          <li><span class="sub-title">Percentage : </span> &nbsp; 86.83%</li>
+          <li><span class="sub-title">Percentile : </span> &nbsp; 99.16 Pr</li>
+          <li><span class="sub-title">Board : </span> &nbsp; GSEB </li>
+          <li><span class="sub-title">Year : </span> &nbsp; 2020</li>
+          <br>
+          <li> <a class="link"
+              href="https://drive.google.com/file/d/1C2yNOtfISf-UanG3KNNvuVKFewAWiJQK/view?usp=sharing">MarkSheet</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</section>
+  </section>
 
 
 
@@ -238,19 +265,28 @@
         </div>
         <div class="form-element">
           <label for="email">Email</label> <br>
-          <input type="email" id="email" name="email" placeholder=" [OPTIONAL] Can you provide your E-mail for further contact?">
+          <input type="email" id="email" name="email"
+            placeholder=" [OPTIONAL] Can you provide your E-mail for further contact?">
         </div>
-        <div class="rating form-element">
-          <h3>Rate my Portfolio :)</h3> <br>
-          <input type="radio" id="star5" name="Rating" value="5" /><label for="star5"></label>
-          <input type="radio" id="star4" name="Rating" value="4" /><label for="star4"></label>
-          <input type="radio" id="star3" name="Rating" value="3" /><label for="star3"></label>
-          <input type="radio" id="star2" name="Rating" value="2" /><label for="star2"></label>
-          <input type="radio" id="star1" name="Rating" value="1" /><label for="star1"></label>
-        </div>
-        <br><br><br>
         <div class="form-element">
-          <label for="feedback_msg">Feedback</label> <br>
+          <fieldset class="starability-slot">
+            <legend class=""> <label for="first-rate1"> : ) </label></legend>
+            <input type="radio" id="no-rate" class="input-no-rate" name="rating" value="0" checked
+              aria-label="No rating." />
+            <input type="radio" id="first-rate1" name="rating" value="1" />
+            <label for="first-rate1" title="Terrible">1 star</label>
+            <input type="radio" id="first-rate2" name="rating" value="2" />
+            <label for="first-rate2" title="Not good">2 stars</label>
+            <input type="radio" id="first-rate3" name="rating" value="3" />
+            <label for="first-rate3" title="Average">3 stars</label>
+            <input type="radio" id="first-rate4" name="rating" value="4" />
+            <label for="first-rate4" title="Very good">4 stars</label>
+            <input type="radio" id="first-rate5" name="rating" value="5" />
+            <label for="first-rate5" title="Amazing">5 stars</label>
+          </fieldset>
+        </div>
+        <div class="form-element">
+          <label for="feedback_msg">Message</label> <br>
           <textarea name="feedback" id="feedback_msg" placeholder="give your valuable feedback" required></textarea>
         </div>
         <br>
@@ -259,7 +295,7 @@
     </div>
   </section>
 
-  
+
   <script src="app.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>AOS.init({ easing: 'ease-in', delay: 100, duration: 300, offset: 100 }); window.addEventListener('load', AOS.refresh);</script>

@@ -1,0 +1,48 @@
+/* Education  */
+#Education {
+    height: auto;
+}
+
+#Education img {
+    margin: 20px;
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+#college, #jee, #hsc, #ssc, #gujcet {
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 0 5px 10px rgb(139, 139, 139);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.175);
+    margin: 60px 5% 50px 5%;
+}
+
+
+
+#Education h1 {
+    color: #29f878;
+}
+
+#Education ul li {
+    align-items: center;
+    list-style-type: none;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#Education ul li a {
+    color: #01ffd5;
+}
+
+#detailssc, #detailjee, #detailhsc, #detailgujcet, #detailclg {
+    margin: 30px;
+}
+
+#Education .sub-title {
+    color: rgb(170, 213, 199);
+}

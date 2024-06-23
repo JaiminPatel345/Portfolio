@@ -1,6 +1,7 @@
 #Skills .container {
     background: rgba(255, 255, 255, 0.053);
     border: 1px solid white;
+    margin: 50px 50px;
 
 }
 
@@ -12,6 +13,7 @@
 
 
 
+
     /* width: 80%;
     justify-self: center; */
 
@@ -20,8 +22,8 @@
 
 .flip-box {
     background-color: transparent;
-    height: 150px;
-    width: 200px;
+    height: 180px;
+    width: 220px;
 
     perspective: 1000px;
     margin: 20px;
@@ -45,6 +47,7 @@
 .flip-box-inner img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 /* Position the front and back side */
@@ -62,6 +65,7 @@
 .flip-box-front {
     background-color: #bbb;
     color: black;
+    background-color: black;
 }
 
 /* Style the back side */
@@ -70,4 +74,11 @@
     color: white;
     border: 1px solid #1dc3e1;
     transform: rotateY(180deg);
+}
+
+#Skills .sub-title {
+    color: #29f878;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 }

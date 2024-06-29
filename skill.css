@@ -76,3 +76,20 @@
     margin: 10px;
     padding: 10px;
 }
+
+#Skills .flip-box-back p {
+    display: none;
+}
+
+#Skills .flip-box-back h2 {
+    font-weight: 700;
+    padding: 10px;
+
+}
+
+#Skills .flip-box-back li {
+    font-weight: 500;
+    padding: 10px;
+    color: rgb(185, 245, 225);
+
+}

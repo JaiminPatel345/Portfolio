@@ -47,3 +47,9 @@
 #Education .detail-container .sub-title {
     color: rgb(170, 213, 199);
 }
+
+@media screen and (max-width:500px) {
+    #Education img {
+        max-width: 250px;
+    }
+}

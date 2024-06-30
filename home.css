@@ -59,6 +59,13 @@
     filter: drop-shadow(10px 10px 10px #33868a);
 }
 
+@media screen and (max-width:1300px) {
+    #home .Cool-Photo {
+        left: -100px;
+        top: -150px;
+    }
+}
+
 @media screen and (max-width:500px) {
     #home .home-content div {
         padding: 5px;
@@ -70,5 +77,9 @@
 
     #home .home-content .text-3 {
         font-size: 30px;
+    }
+
+    #home .Cool-Photo {
+        position: relative;
     }
 }

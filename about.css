@@ -44,7 +44,11 @@
     color: white;
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.about .about-content .right .text .line {
+    display: none;
 }
 
 .about .about-content .right .text span {
@@ -58,4 +62,40 @@
 
 .about .about-content .right .p {
     text-align: justify;
+}
+
+@media screen and (max-width: 1050px) {
+
+    #about .about-content {
+        flex-direction: column;
+    }
+
+    .about .about-content .right, .left {
+        margin: 30px 0;
+    }
+
+    .about .about-content .right .text span {
+        height: 1000px;
+        font-size: 20px;
+    }
+
+    .about .about-content .right .text .line {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+
+    #about img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .about .about-content .right .text, .paragraph {
+        position: relative;
+        left: -50px;
+        width: 150%;
+    }
+
 }

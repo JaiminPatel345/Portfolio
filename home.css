@@ -4,9 +4,9 @@
 #home .container {
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
-    min-height: 500px;
+    /* min-height: 500px; */
     justify-content: space-around;
     /* align-items: center; */
 

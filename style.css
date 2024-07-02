@@ -34,7 +34,6 @@ body {
 section {
     padding: 120px 0;
     height: auto;
-    padding-bottom: 300px;
 }
 
 .about, .services, .skills, .contact, footer {

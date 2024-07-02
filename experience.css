@@ -1,9 +1,9 @@
 /* Education  */
-#Education, #Experience {
+#Education .container, #Experience {
     height: auto;
 }
 
-#Education img, #Experience img {
+#Education .container, #Experience img {
     margin: 20px;
     max-width: 300px;
     max-height: 500px;
@@ -25,31 +25,31 @@
 
 
 
-#Education .container h1, #Experience .container h1 {
+#Education .container, #Experience .container h1 {
     color: #29f878;
 }
 
-#Education .container ul li, #Experience .container ul li {
+#Education .container, #Experience .container ul li {
     align-items: center;
     list-style-type: none;
     color: #ffffff;
     font-weight: 400;
 }
 
-#Education .container ul li a, #Experience .container ul li a {
+#Education .container, #Experience .container ul li a {
     color: #01ffd5;
 }
 
-#Education .container .detail-container, #Experience .container .detail-container {
+#Education .container, #Experience .container .detail-container {
     margin: 30px;
 }
 
-#Education .detail-container .sub-title, #Experience .detail-container .sub-title {
+#Education .container, #Experience .detail-container .sub-title {
     color: rgb(170, 213, 199);
 }
 
 @media screen and (max-width:500px) {
-    #Education img, #Experience img {
+    #Education .container, #Experience img {
         max-width: 250px;
     }
 }

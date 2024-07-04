@@ -49,8 +49,8 @@
 }
 
 #home .Cool-Photo img {
-    -webkit-filter: drop-shadow(5px 5px 5px #33868a);
-    filter: drop-shadow(5px 5px 5px #33868a);
+    -webkit-filter: drop-shadow(3px 3px 5px #33868a);
+    filter: drop-shadow(3px 3px 5px #33868a);
     transition: .5s;
 }
 

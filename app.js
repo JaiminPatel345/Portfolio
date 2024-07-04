@@ -1,3 +1,7 @@
+console.log("---- If you show error then connect to proper internet ----");
+
+
+
 // For navigation bar
 let marker = document.querySelector("#marker");
 let item = document.querySelectorAll(".navbar a");
@@ -18,7 +22,7 @@ item.forEach(link => {
 
 // typing animation script
 var typed = new Typed(".typing", {
-    strings: ["Computer Engineer" , "Coder", "Developer", "Backend Developer" ],
+    strings: ["Computer Engineer", "Coder", "Developer", "Backend Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -27,7 +31,7 @@ var typed = new Typed(".typing", {
 });
 
 var typed = new Typed(".typing-2", {
-    strings: ["Computer Engineer" , "Coder", "Developer", "Backend Developer" ],
+    strings: ["Computer Engineer", "Coder", "Developer", "Backend Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -38,9 +42,8 @@ var typed = new Typed(".typing-2", {
 const form = document.getElementById('feedbackForm');
 form.addEventListener('submit', e => {
     e.preventDefault()
-    fetch('https://script.google.com/macros/s/AKfycbx85JLTYu2sKrT054y-dR6LMx-QqHmrq8szeg0twnaAeWislhmHGJab0Yo0fXxzGLrN/exec', { method: 'POST', body: new FormData(form)})
-    .then(response => alert("Thank you! your form is submitted successfully." ))
-    .then(() => { window.location.reload(); })
-    .catch(error => console.error('Error!', error.message))
-  })
-  
+    fetch('https://script.google.com/macros/s/AKfycbx85JLTYu2sKrT054y-dR6LMx-QqHmrq8szeg0twnaAeWislhmHGJab0Yo0fXxzGLrN/exec', { method: 'POST', body: new FormData(form) })
+        .then(response => alert("Thank you! your form is submitted successfully."))
+        .then(() => { window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+})

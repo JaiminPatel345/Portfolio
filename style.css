@@ -95,8 +95,8 @@ section .title::after {
 }
 
 .link:hover {
-    color: white;
-    background: none;
+    color: white !important;
+    /* background: none; */
 }
 
 /* Button */

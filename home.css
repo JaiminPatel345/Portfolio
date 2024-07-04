@@ -43,8 +43,10 @@
 
 #home .Cool-Photo {
     position: relative;
-    left: -250px;
-    top: -150px;
+    left: -100px;
+    top: -100px;
+    margin-top: 50px;
+
 
 }
 
@@ -61,12 +63,11 @@
 
 @media screen and (max-width:1300px) {
     #home .Cool-Photo {
-        left: -100px;
-        top: -150px;
+        position: static;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
     #home .home-content div {
         padding: 5px;
     }
@@ -79,7 +80,4 @@
         font-size: 30px;
     }
 
-    #home .Cool-Photo {
-        position: relative;
-    }
 }

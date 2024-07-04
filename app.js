@@ -17,6 +17,22 @@ item.forEach(link => {
     })
 })
 
+//responsive navbar
+let navbar = document.querySelector('.header .responsible .navbar');
+const bar = document.querySelector('.header .responsible .fa-bars');
+const xmark = document.querySelector('.header .responsible .xmark');
+
+xmark.addEventListener('click', () => {
+    navbar.classList.remove('navbar-toggle');
+    bar.classList.remove('none');
+})
+
+bar.addEventListener('click', () => {
+    console.log('click');
+    navbar.classList.add("navbar-toggle");
+    bar.classList.add("none")
+})
+
 
 
 

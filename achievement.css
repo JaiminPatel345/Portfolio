@@ -1,0 +1,61 @@
+#Achievements .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 30px;
+}
+
+#Achievements .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+#Achievements .card .card__content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#Achievements .card .card__content .link{
+    width: 200px;
+}
+
+#Achievements .card h2{
+    color: #29f878;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#Achievements .card img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width:1100px) {
+
+    #Achievements .wrapper{
+        grid-template-columns: 1fr;
+        /* width: 80%; */
+    }
+    
+    #Achievements .card{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #Achievements .card .card__content{
+        align-items: flex-start;
+        align-items: center;
+        justify-content: flex-start;
+        
+        width: auto;
+    }
+
+}

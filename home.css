@@ -54,11 +54,14 @@
     -webkit-filter: drop-shadow(3px 3px 5px #33868a);
     filter: drop-shadow(3px 3px 5px #33868a);
     transition: .5s;
+    box-shadow: none;
 }
 
 #home .Cool-Photo img:hover {
     -webkit-filter: drop-shadow(10px 10px 10px #33868a);
     filter: drop-shadow(10px 10px 10px #33868a);
+    box-shadow: none;
+    transform: none;
 }
 
 @media screen and (max-width:1300px) {

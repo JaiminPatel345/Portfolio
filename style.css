@@ -83,13 +83,13 @@ section .title::after {
     padding: 5px 20px;
     border-radius: 6px;
     border: 2px solid #01ffd5;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     z-index: 99;
+    box-sizing: border-box;
 }
 
 .link:hover {
-    color: white !important;
-    /* background: none; */
+    color: white ;
 }
 
 /* Button */

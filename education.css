@@ -36,9 +36,6 @@
     font-weight: 400;
 }
 
-#Education .container ul li a, #Experience .container ul li a {
-    color: #01ffd5;
-}
 
 #Education .container .detail-container, #Experience .container .detail-container {
     margin: 30px;
@@ -48,8 +45,14 @@
     color: rgb(170, 213, 199);
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     #Education img, #Experience img {
         max-width: 250px;
+    }
+
+    #Education .container, #Experience .container {
+        margin: 30px;
+        justify-content: center;
+        align-items: center;
     }
 }

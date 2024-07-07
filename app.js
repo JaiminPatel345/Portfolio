@@ -63,3 +63,12 @@ form.addEventListener('submit', e => {
         .then(() => { window.location.reload(); })
         .catch(error => console.error('Error!', error.message))
 })
+
+
+// const formBtn = document.getElementById("form-btn")
+// formBtn.addEventListener('click', () => {
+//     const msg = document.getElementById('feedback_msg');
+//     if (!msg.innerText || msg.innerText.length === 0) {
+//         alert("Please write something in message ");
+//     }
+// })

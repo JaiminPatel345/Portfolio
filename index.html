@@ -792,15 +792,14 @@
       <form id="feedbackForm" method="post" name="feedbackForm" action=''>
         <div class="form-element">
           <label for="nam">Name</label> <br>
-          <input type="text" id="nam" name="name" placeholder=" [OPTIONAL] Enter your beautiful name">
+          <input type="text" id="nam" name="name" placeholder="Enter your beautiful name">
         </div>
         <div class="form-element">
           <label for="email">Email</label> <br>
-          <input type="email" id="email" name="email"
-            placeholder=" [OPTIONAL] Can you provide your E-mail for further contact?">
+          <input type="email" id="email" name="email" placeholder="Can you provide your E-mail for further contact?">
         </div>
         <div class="form-element">
-          <fieldset class="starability-slot">
+          <fieldset class="starability-grow">
             <legend class=""> <label for="first-rate1"> : ) </label></legend>
             <input type="radio" id="no-rate" class="input-no-rate" name="Rating" value="0" checked
               aria-label="No rating." />
@@ -817,11 +816,11 @@
           </fieldset>
         </div>
         <div class="form-element">
-          <label for="feedback_msg">Message</label> <br>
+          <label for="feedback_msg">Message *</label> <br>
           <textarea name="feedback" id="feedback_msg" placeholder="give your valuable feedback" required></textarea>
         </div>
         <br>
-        <button type="submit" class="btn">SUBMIT</button>
+        <button type="submit" id="form-btn" class="btn">SUBMIT</button>
       </form>
     </div>
   </section>

@@ -88,7 +88,7 @@
 
 @media screen and (max-width:500px) {
 
-    #about img {
+    #about .about-content .left  img {
         height: 400px;
         width: 80%;
     }

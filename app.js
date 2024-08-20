@@ -38,7 +38,7 @@ bar.addEventListener('click', () => {
 
 // typing animation script
 var typed = new Typed(".typing", {
-    strings: ["Computer Engineer", "Coder", "Developer", "Backend Developer"],
+    strings: ["DSA Enthusiast", "Problem Solver", "Innovative Thinker", "Open-Source Contributor", "Continuous Learner"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -47,7 +47,7 @@ var typed = new Typed(".typing", {
 });
 
 var typed = new Typed(".typing-2", {
-    strings: ["Computer Engineer", "Coder", "Developer", "Backend Developer"],
+    strings: ["Developer", "Chess Player", "Tech Enthusiast"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,

@@ -6,7 +6,7 @@
 }
 
 #Skills .container {
-    background: rgba(255, 255, 255, 0.053);
+    background: rgba(255, 255, 255, 0.2);
     border: 2px solid white;
     margin: 60px 0px;
     width: 94%;
@@ -100,4 +100,13 @@
     padding: 10px;
     color: rgb(185, 245, 225);
 
+}
+
+.special-skill{
+    margin-top: 400px !important;
+}
+
+
+.special-skill li{
+   padding: 5px !important;
 }

@@ -1,6 +1,17 @@
 console.log("---- If you show error then connect to proper internet ----");
 
 
+//For open any link in new tab
+document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+        if (link.closest('nav')) {
+            return; // Skip links inside <nav>
+          }
+      link.setAttribute('target', '_blank');
+    });
+  });
+
 
 // For navigation bar
 let marker = document.querySelector("#marker");

@@ -1,69 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- AOS -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-  <!-- Google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
+    <!-- TYPE JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-  <!-- font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- All css -->
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="skill.css" />
+    <link rel="stylesheet" href="achievement.css" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="education.css" />
+    <link rel="stylesheet" href="feedback.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-
-  <!-- TYPE JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- All css -->
-  <link rel="stylesheet" href="navbar.css" />
-  <link rel="stylesheet" href="home.css" />
-  <link rel="stylesheet" href="about.css" />
-  <link rel="stylesheet" href="skill.css" />
-  <link rel="stylesheet" href="achievement.css" />
-  <link rel="stylesheet" href="project.css" />
-  <link rel="stylesheet" href="education.css" />
-  <link rel="stylesheet" href="feedback.css" />
-  <link rel="stylesheet" href="style.css" />
-
-</head>
-
-<body>
-  <header class="header">
-    <a href="#" id="logo">
-      <p>My Portfolio</p>
-    </a>
-    <nav class="navbar">
-      <div id="marker"></div>
-      <a href="#">HOME</a>
-      <a href="#about">ABOUT ME</a>
-      <a href="#Skills">SKILLS</a>
-      <a href="#Achievements">ACHIEVEMENTS</a>
-      <a href="#Experience">EXPERIENCE</a>
-      <a href="#Projects">PROJECTS</a>
-      <a href="#Education">EDUCATION</a>
-      <a href="#Feedback">FEEDBACK</a>
-    </nav>
-    <div class="responsible ">
-      <i class="fa fa-light fa-bars"></i>
-      <nav class="navbar ">
-        <svg class="xmark" xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-          viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-          <path fill="#ffffff"
-            d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
-        </svg>
-
+  <body>
+    <header class="header">
+      <a href="#" id="logo">
+        <p>My Portfolio</p>
+      </a>
+      <nav class="navbar">
+        <div id="marker"></div>
         <a href="#">HOME</a>
         <a href="#about">ABOUT ME</a>
         <a href="#Skills">SKILLS</a>
@@ -73,797 +58,1006 @@
         <a href="#Education">EDUCATION</a>
         <a href="#Feedback">FEEDBACK</a>
       </nav>
-    </div>
-  </header>
+      <div class="responsible">
+        <i class="fa fa-light fa-bars"></i>
+        <nav class="navbar">
+          <svg
+            class="xmark"
+            xmlns="http://www.w3.org/2000/svg"
+            height="20"
+            width="20"
+            viewBox="0 0 512 512"
+          >
+            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              fill="#ffffff"
+              d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"
+            />
+          </svg>
 
-  <!-- home section start-->
-  <section class="home" id="home">
-    <div class="space"></div>
-    <div class="container">
-      <div class="max-width">
-        <div class="home-content">
-          <div class="text-1" data-aos="fade-up">Hello, my name is</div>
-          <div class="text-2">Jaimin Detroja</div>
-          <div class="text-3">I'm a <span class="typing"></span></div>
-        </div>
+          <a href="#">HOME</a>
+          <a href="#about">ABOUT ME</a>
+          <a href="#Skills">SKILLS</a>
+          <a href="#Achievements">ACHIEVEMENTS</a>
+          <a href="#Experience">EXPERIENCE</a>
+          <a href="#Projects">PROJECTS</a>
+          <a href="#Education">EDUCATION</a>
+          <a href="#Feedback">FEEDBACK</a>
+        </nav>
       </div>
-      <div class="Cool-Photo">
-        <img src="SRC/Cool-Photo.png" alt="Animation" />
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- about section -->
-  <section class="about" id="about">
-    <div class="max-width">
-      <h2 class="title" data-aos="fade-down">About Me</h2>
-      <div class="about-content">
-        <div class="column left" data-aos="fade-right">
-          <img src="SRC/My Image.jpg" alt="" />
-        </div>
-        <div class="column right" data-aos="fade-up">
-          <div class="text">
-            I'm Jaimin and I'm a <br class="line"><span class="typing-2"></span>
-          </div>
-          <p class="paragraph">
-            Dynamic and results-oriented Computer Engineering student with a passion for solving complex problems
-            through code. Experienced in competitive programming and adept at leveraging Data Structures and Algorithms
-            (DSA) to craft efficient solutions. Committed to continuous learning and staying
-            updated with emerging technologies like ONDC. Seeking opportunities to contribute and grow in a challenging
-            technical environment.
-          </p>
-          <a class="link" href="https://rebrand.ly/JaiminDetroja-Resume">Show
-            Resume</a>
-        </div>
-      </div>
-    </div>
-
-    </div>
-
-    <div id="Skills" class="special-skill">
+    <!-- home section start-->
+    <section class="home" id="home">
+      <div class="space"></div>
       <div class="container">
+        <div class="max-width">
+          <div class="home-content">
+            <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+            <div class="text-2">Jaimin Detroja</div>
+            <div class="text-3">I'm a <span class="typing"></span></div>
+          </div>
+        </div>
+        <div class="Cool-Photo">
+          <img src="SRC/Cool-Photo.png" alt="Animation" />
+        </div>
+      </div>
+    </section>
 
-        <h2 class="sub-title">DSA Platforms Profiles</h2>
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title" data-aos="fade-down">About Me</h2>
+        <div class="about-content">
+          <div class="column left" data-aos="fade-right">
+            <img src="SRC/My Image.jpg" alt="" />
+          </div>
+          <div class="column right" data-aos="fade-up">
+            <div class="text">
+              I'm Jaimin and I'm a <br class="line" /><span
+                class="typing-2"
+              ></span>
+            </div>
+            <p class="paragraph">
+              Dynamic and results-oriented Computer Engineering student with a
+              passion for solving complex problems through code. Experienced in
+              competitive programming and adept at leveraging Data Structures
+              and Algorithms (DSA) to craft efficient solutions. Committed to
+              continuous learning and staying updated with emerging technologies
+              like ONDC. Seeking opportunities to contribute and grow in a
+              challenging technical environment.
+            </p>
+            <a class="link" href="https://rebrand.ly/JaiminDetroja-Resume"
+              >Show Resume</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div id="Skills" class="special-skill">
+        <div class="container">
+          <h2 class="sub-title">Profiles</h2>
+          <div class="skill-container">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="./SRC/github.jpg" alt="Github" />
+                </div>
+                <div class="flip-box-back">
+                  <h2>Github</h2>
+                  <a href="https://github.com/JaiminPatel345">Visit</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="./SRC/linkedin.jpg" alt="linkedin" />
+                </div>
+                <div class="flip-box-back">
+                  <h2>Linkedin</h2>
+                  <a href="https://in.linkedin.com/in/jaimin-detroja-a46759255"
+                    >Visit</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="./SRC/leetcode.jpg" alt="leetcode" />
+                </div>
+                <div class="flip-box-back">
+                  <h2>LeetCode</h2>
+                  <li>Rating : 1700+</li>
+                  <a href="https://leetcode.com/u/jaiminPatel345/">Visit</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="./SRC/codechef.jpg" alt="codechef" />
+                </div>
+                <div class="flip-box-back">
+                  <h2>Codechef</h2>
+                  <li>Star: 3</li>
+                  <li>Rating : 1600+</li>
+                  <a href="https://www.codechef.com/users/jaimin_patel_3"
+                    >Visit</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="Skills">
+      <h2 class="title" data-aos="fade-down">Skills</h2>
+
+      <div class="container">
+        <h2 class="sub-title">Programming Languages</h2>
         <div class="skill-container">
-
+          <!-- Java -->
           <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
-                <img src="./SRC/leetcode.jpg" alt="leetcode">
+                <img src="SRC/java.jpg" alt="Java" />
               </div>
               <div class="flip-box-back">
-                <h2>LeetCode</h2>
-                <li>Rating : 1700+</li>
-                <a href="https://leetcode.com/u/jaiminPatel345/">Visit</a>
+                <h2>Java</h2>
+                <li>Level: Advanced</li>
+                <p>Expert in Data Structures and Algorithms (DSA)</p>
+                <p>Strong Object-Oriented Programming (OOP) skills</p>
               </div>
             </div>
           </div>
 
+          <!-- JavaScript -->
           <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
-                <img src="./SRC/codechef.jpg" alt="codechef">
+                <img src="SRC/javascript.jpg" alt="JavaScript" />
               </div>
               <div class="flip-box-back">
-                <h2>Codechef</h2>
-                <li>Star: 3</li>
-                <li>Rating : 1600+ </li>
-                <a href="https://www.codechef.com/users/jaimin_patel_3">Visit</a>
+                <h2>JavaScript</h2>
+                <li>Level: Advanced</li>
+                <p>Core JavaScript expertise</p>
+                <p>Experience with asynchronous programming</p>
               </div>
             </div>
           </div>
 
+          <!-- Bash -->
           <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
-                <img src="./SRC/gfg.jpg" alt="Geeks for Geeks">
+                <img src="SRC/bash.jpg" alt="Bash" />
               </div>
               <div class="flip-box-back">
-                <h2>Geeks for Geeks</h2>
-                <li>Star: 3</li>
-                <li>Rating : 1600+ </li>
-                <a href="https://www.geeksforgeeks.org/user/officialj9h58/">Visit</a>
+                <h2>Bash</h2>
+                <li>Level: Familiar</li>
+                <p>Proficient with shell scripting</p>
+                <p>Experience in automating tasks</p>
               </div>
             </div>
           </div>
 
+          <!-- Python -->
           <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
-                <img src="./SRC/hackerrank.jpg" alt="Geeks for Geeks">
+                <img src="SRC/python.jpg" alt="PYTHON" />
               </div>
               <div class="flip-box-back">
-                <h2>Hackerrank</h2>
-                <li>C : 4 star</li>
-                <li>Java : 3 star</li>
-                <a href="https://www.hackerrank.com/profile/officialjaimin31">Visit</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- skills section -->
-  <section id="Skills">
-    <h2 class="title" data-aos="fade-down">Skills</h2>
-
-    <div class="container">
-
-      <h2 class="sub-title">Programming Languages</h2>
-      <div class="skill-container">
-        <!-- Java -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/java.jpg" alt="Java">
-            </div>
-            <div class="flip-box-back">
-              <h2>Java</h2>
-              <li>Level: Advanced</li>
-              <p>Expert in Data Structures and Algorithms (DSA)</p>
-              <p>Strong Object-Oriented Programming (OOP) skills</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- JavaScript -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/javascript.jpg" alt="JavaScript">
-            </div>
-            <div class="flip-box-back">
-              <h2>JavaScript</h2>
-              <li>Level: Advanced</li>
-              <p>Core JavaScript expertise</p>
-              <p>Experience with asynchronous programming</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Python -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/python.jpg" alt="PYTHON">
-            </div>
-            <div class="flip-box-back">
-              <h2>Python</h2>
-              <li>Level: Intermediate</li>
-              <!-- <p>Expert in Data Structures and Algorithms (DSA)</p>
+                <h2>Python</h2>
+                <li>Level: Intermediate</li>
+                <!-- <p>Expert in Data Structures and Algorithms (DSA)</p>
               <p>Strong Object-Oriented Programming (OOP) skills</p> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- C++ -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/cpp.jpg" alt="C++" />
+              </div>
+              <div class="flip-box-back">
+                <h2>C++</h2>
+                <li>Level: Intermediate</li>
+                <p>Proficient with Standard Template Library (STL)</p>
+                <p>Understanding of low-level memory management</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- C -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/c.jpg" alt="C" />
+              </div>
+              <div class="flip-box-back">
+                <h2>C</h2>
+                <li>Level: Familiar</li>
+                <p>Basic understanding of procedural programming</p>
+                <p>Experience with system-level programming</p>
+              </div>
             </div>
           </div>
         </div>
+        <!-- skill-container -->
+      </div>
+      <!-- container -->
 
-        <!-- C++ -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/cpp.jpg" alt="C++">
-            </div>
-            <div class="flip-box-back">
-              <h2>C++</h2>
-              <li>Level: Intermediate</li>
-              <p>Proficient with Standard Template Library (STL)</p>
-              <p>Understanding of low-level memory management</p>
+      <div class="container">
+        <h2 class="sub-title">Web Development</h2>
+        <div class="skill-container">
+          <!-- Node.js -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/nodejs.jpg" alt="Node.js & Express.js" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Node.js</h2>
+                <li>Level: Advanced</li>
+                <p>Server-side development expertise</p>
+                <p>Experience with building RESTful APIs</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- PHP -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/php.jpg" alt="PHP">
-            </div>
-            <div class="flip-box-back">
-              <h2>PHP</h2>
-              <li>Level: Intermediate</li>
-              <p>Experience with web development</p>
+          <!-- Express.js  -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/expressjs.jpg" alt="Node.js & Express.js" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Express.js</h2>
+                <li>Level: Advanced</li>
+                <p>Server-side development expertise</p>
+                <p>Experience with building RESTful APIs</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- C -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/c.jpg" alt="C">
-            </div>
-            <div class="flip-box-back">
-              <h2>C</h2>
-              <li>Level: Familiar</li>
-              <p>Basic understanding of procedural programming</p>
-              <p>Experience with system-level programming</p>
+          <!-- React.js  -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/react.jpg" alt="React JS" />
+              </div>
+              <div class="flip-box-back">
+                <h2>React JS</h2>
+                <li>Level: Intermediate</li>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Bash -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/bash.jpg" alt="Bash">
-            </div>
-            <div class="flip-box-back">
-              <h2>Bash</h2>
-              <li>Level: Familiar</li>
-              <p>Proficient with shell scripting</p>
-              <p>Experience in automating tasks</p>
+          <!-- HTML -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/html.jpg" alt="HTML" />
+              </div>
+              <div class="flip-box-back">
+                <h2>HTML</h2>
+                <li>Level: Intermediate</li>
+                <p>Proficient in creating web pages</p>
+                <p>Experience with semantic HTML</p>
+              </div>
             </div>
           </div>
-        </div>
-      </div> <!-- skill-container -->
-    </div> <!-- container -->
 
-    <div class="container">
-      <h2 class="sub-title">Web Development</h2>
-      <div class="skill-container">
-
-        <!-- Node.js -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/nodejs.jpg" alt="Node.js & Express.js">
-            </div>
-            <div class="flip-box-back">
-              <h2>Node.js </h2>
-              <li>Level: Advanced</li>
-              <p>Server-side development expertise</p>
-              <p>Experience with building RESTful APIs</p>
+          <!-- CSS -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/css.jpg" alt="CSS" />
+              </div>
+              <div class="flip-box-back">
+                <h2>CSS</h2>
+                <li>Level: Intermediate</li>
+                <p>Skilled in styling web pages</p>
+                <p>Experience with responsive design</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Express.js  -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/expressjs.jpg" alt="Node.js & Express.js">
-            </div>
-            <div class="flip-box-back">
-              <h2> Express.js</h2>
-              <li>Level: Advanced</li>
-              <p>Server-side development expertise</p>
-              <p>Experience with building RESTful APIs</p>
+          <!-- Tailwind CSS -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/tailwind.jpg" alt="Tailwind CSS" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Tailwind CSS</h2>
+                <li>Level: Intermediate</li>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- HTML -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/html.jpg" alt="HTML">
-            </div>
-            <div class="flip-box-back">
-              <h2>HTML</h2>
-              <li>Level: Intermediate</li>
-              <p>Proficient in creating web pages</p>
-              <p>Experience with semantic HTML</p>
+          <!-- Bootstrap -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/bootstrap.jpg" alt="Bootstrap" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Bootstrap</h2>
+                <li>Level: Intermediate</li>
+                <p>Experience in designing and building APIs</p>
+                <p>Proficient in API documentation</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- CSS -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/css.jpg" alt="CSS">
-            </div>
-            <div class="flip-box-back">
-              <h2>CSS</h2>
-              <li>Level: Intermediate</li>
-              <p>Skilled in styling web pages</p>
-              <p>Experience with responsive design</p>
+          <!-- Spring -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/spring.jpg" alt="Spring and Spring Boot" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Spring and Spring Boot</h2>
+                <li>Level: Intermediate</li>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- RESTful API -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/api.jpg" alt="RESTful API">
-            </div>
-            <div class="flip-box-back">
-              <h2>RESTful API</h2>
-              <li>Level: Intermediate</li>
-              <p>Experience in designing and building APIs</p>
-              <p>Proficient in API documentation</p>
+          <!-- Firebase -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/firebase.jpg" alt="Firebase" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Firebase</h2>
+                <li>Level: Intermediate</li>
+              </div>
             </div>
           </div>
-        </div>
 
-
-        <!-- Bootstrap -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/bootstrap.jpg" alt="Bootstrap">
-            </div>
-            <div class="flip-box-back">
-              <h2>Bootstrap</h2>
-              <li>Level: Intermediate</li>
-              <p>Experience in designing and building APIs</p>
-              <p>Proficient in API documentation</p>
+          <!-- Socket.io -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/socketio.jpg" alt="Socket.io" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Socket.io</h2>
+                <li>Level: Intermediate</li>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <h2 class="sub-title">Databases</h2>
-      <div class="skill-container">
-
-        <!-- NoSQL (MongoDB) -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/mongodb.jpg" alt="MongoDB">
+      <div class="container">
+        <h2 class="sub-title">Databases</h2>
+        <div class="skill-container">
+          <!-- NoSQL (MongoDB) -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/mongodb.jpg" alt="MongoDB" />
+              </div>
+              <div class="flip-box-back">
+                <h2>MongoDB</h2>
+                <li>Level: Advance</li>
+                <p>Experience with MongoDB for flexible schema design</p>
+                <p>Proficient in CRUD operations</p>
+              </div>
             </div>
-            <div class="flip-box-back">
-              <h2>MongoDB</h2>
-              <li>Level: Advance</li>
-              <p>Experience with MongoDB for flexible schema design</p>
-              <p>Proficient in CRUD operations</p>
+          </div>
+
+          <!-- Redis  -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/redis.jpg" alt="Redis" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Redis</h2>
+                <li>Level: Familiar</li>
+                <p>Experience with MongoDB for flexible schema design</p>
+                <p>Proficient in CRUD operations</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- SQL (MySQL & PGadmin) -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/mysql.jpg" alt="MySQL" />
+              </div>
+              <div class="flip-box-back">
+                <h2>MySQL</h2>
+                <li>Level: Intermediate</li>
+                <p>Proficient in database design and querying</p>
+                <p>Experience with MySQL and PGadmin tools</p>
+              </div>
+            </div>
+          </div>
+
+          <!--  PGadmin -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/pgadmin.jpg" alt="PGadmin" />
+              </div>
+              <div class="flip-box-back">
+                <h2>PGadmin</h2>
+                <li>Level: Familiar</li>
+                <p>Proficient in database design and querying</p>
+                <p>Experience with MySQL and PGadmin tools</p>
+              </div>
             </div>
           </div>
         </div>
+        <!-- skill-container -->
+      </div>
+      <!-- container -->
 
-        <!-- Redis  -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/redis.jpg" alt="Redis">
+      <div class="container">
+        <h2 class="sub-title">Concepts and Other Skills</h2>
+        <div class="skill-container">
+          <!-- Problem Solving on DSA -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/ps.jpg" alt="Problem Solving on DSA" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Problem Solving</h2>
+                <li>Level: Advanced</li>
+                <p>Strong analytical and problem-solving skills</p>
+                <p>Experience in competitive programming</p>
+              </div>
             </div>
-            <div class="flip-box-back">
-              <h2>Redis</h2>
-              <li>Level: Familiar</li>
-              <p>Experience with MongoDB for flexible schema design</p>
-              <p>Proficient in CRUD operations</p>
+          </div>
+
+          <!-- DSA -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/dsa.jpg" alt="DSA" />
+              </div>
+              <div class="flip-box-back">
+                <h2>DSA using JAVA</h2>
+                <li>Level: Advanced</li>
+                <p>Strong analytical and problem-solving skills on DSA</p>
+                <p>500+ DSA problem solve over all platforms</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- OOPs Concept -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/oop.jpg" alt="OOPs Concept" />
+              </div>
+              <div class="flip-box-back">
+                <h2>OOPs Concept</h2>
+                <li>Level: Advanced</li>
+                <p>Strong understanding of OOP principles in JAVA</p>
+                <p>Experience in designing OOP systems</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Git & GitHub -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/git.jpg" alt="Git & GitHub" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Git with GitHub</h2>
+                <li>Level: Advance</li>
+                <p>Proficient in version control using Git</p>
+                <p>Experience with collaborative development on GitHub</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- RESTful API -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/api.jpg" alt="RESTful API" />
+              </div>
+              <div class="flip-box-back">
+                <h2>RESTful API</h2>
+                <li>Level: Intermediate</li>
+                <p>Experience in designing and building APIs</p>
+                <p>Proficient in API documentation</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Linux Kernel -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/linux.jpg" alt="Linux Kernel" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Linux Kernel</h2>
+                <li>Level: Intermediate</li>
+                <p>Proficient in using and configuring Linux systems</p>
+                <p>Understanding of kernel internals</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Deep learning -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/dl.jpg" alt="Deep Learning" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Deep Learning</h2>
+                <li>Level: Beginner</li>
+                <p>Proficient in using and configuring Linux systems</p>
+                <p>Understanding of kernel internals</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ONDC -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/ondc.jpg" alt="ONDC" />
+              </div>
+              <div class="flip-box-back">
+                <h2>ONDC</h2>
+                <li>Level: Familiar</li>
+                <p>Open network for digital commerce</p>
+                <p>Do 3 month internship on this</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cloud -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/cloud.jpg" alt="Cloud" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Google Cloud</h2>
+                <li>Level: Familiar</li>
+                <p>Basic understanding of Google cloud services</p>
+                <p>Experience with deployment on cloud platforms</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Security -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/security.jpg" alt="Security" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Security</h2>
+                <li>Level: Familiar</li>
+                <p>Basic understanding of cybersecurity principles</p>
+                <p>Experience with securing web applications</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Networks -->
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="SRC/networks.jpg" alt="Networks" />
+              </div>
+              <div class="flip-box-back">
+                <h2>Networks</h2>
+                <li>Level: Familiar</li>
+                <p>Basic understanding of network protocols</p>
+                <p>Experience with network configuration</p>
+              </div>
             </div>
           </div>
         </div>
+        <!-- skill-container -->
+      </div>
+      <!-- container -->
+    </section>
 
-        <!-- SQL (MySQL & PGadmin) -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/mysql.jpg" alt="MySQL">
-            </div>
-            <div class="flip-box-back">
-              <h2>MySQL</h2>
-              <li>Level: Intermediate</li>
-              <p>Proficient in database design and querying</p>
-              <p>Experience with MySQL and PGadmin tools</p>
-            </div>
+    <!-- Achievements -->
+    <section id="Achievements">
+      <h2 class="title" data-aos="fade-down">Achievements</h2>
+
+      <div class="wrapper">
+        <!-- Leetcode -->
+        <div class="card">
+          <div class="card__image">
+            <img src="SRC/leetcode.jpg" alt="leetcode" />
+          </div>
+          <div class="card__content">
+            <h2 class="card__title">Leetcode</h2>
+            <ul>
+              <li>Weekly Contest 415</li>
+              <li>Rank : 1644 / 33921</li>
+            </ul>
+            <a
+              class="link"
+              href="https://drive.google.com/file/d/1-uHZLEMNlyMzAYUhAPvj87jWPDWlEX-w/view?usp=sharing"
+              >View</a
+            >
           </div>
         </div>
 
-        <!--  PGadmin -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/pgadmin.jpg" alt="PGadmin">
-            </div>
-            <div class="flip-box-back">
-              <h2>PGadmin</h2>
-              <li>Level: Familiar</li>
-              <p>Proficient in database design and querying</p>
-              <p>Experience with MySQL and PGadmin tools</p>
-            </div>
+        <!-- codechef -->
+        <div class="card">
+          <div class="card__image">
+            <a href="https://www.codechef.com/users/jaimin_patel_3"
+              ><img src="SRC/codechef.jpg" alt="codechef"
+            /></a>
+          </div>
+          <div class="card__content">
+            <h2 class="card__title">Codechef</h2>
+            <ul>
+              <li>Contest Starters 142 Division 3</li>
+              <li>Rank : 350</li>
+              <li>Score : 400</li>
+            </ul>
+            <a
+              class="link"
+              href="https://drive.google.com/file/d/1svzevDIzObyJXvPCu3NYmgdiP67TSafS/view?usp=sharing"
+              >View</a
+            >
           </div>
         </div>
 
-      </div> <!-- skill-container -->
-    </div> <!-- container -->
+        <div class="card">
+          <div class="card__image">
+            <a href="https://www.codechef.com/users/jaimin_patel_3"
+              ><img src="SRC/codechef.jpg" alt="codechef"
+            /></a>
+          </div>
 
-    <div class="container  ">
-      <h2 class="sub-title">Concepts and Other Skills</h2>
-      <div class="skill-container">
-
-        <!-- Problem Solving on DSA -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/ps.jpg" alt="Problem Solving on DSA">
-            </div>
-            <div class="flip-box-back">
-              <h2>Problem Solving</h2>
-              <li>Level: Advanced</li>
-              <p>Strong analytical and problem-solving skills</p>
-              <p>Experience in competitive programming</p>
-            </div>
+          <div class="card__content">
+            <h2 class="card__title">Codechef</h2>
+            <ul>
+              <li>Contest Starters 109 Division 3</li>
+              <li>Rank : 566</li>
+              <li>Score : 300</li>
+            </ul>
+            <a
+              class="link"
+              href="https://drive.google.com/file/d/1hwxrV4jayutObKhCs39jU6oAAuREBL6t/view?usp=sharing"
+              >View</a
+            >
           </div>
         </div>
 
-        <!-- DSA -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/dsa.jpg" alt="DSA">
-            </div>
-            <div class="flip-box-back">
-              <h2>DSA using JAVA</h2>
-              <li>Level: Advanced</li>
-              <p>Strong analytical and problem-solving skills on DSA</p>
-              <p>500+ DSA problem solve over all platforms</p>
-            </div>
+        <div class="card">
+          <div class="card__image">
+            <a href="https://www.codechef.com/users/jaimin_patel_3"
+              ><img src="SRC/codechef.jpg" alt="codechef"
+            /></a>
+          </div>
+          <div class="card__content">
+            <h2 class="card__title">Codechef</h2>
+            <ul>
+              <li>Starters 124 Division 2</li>
+              <li>Rank : 694</li>
+              <li>Score : 400</li>
+            </ul>
+            <a
+              class="link"
+              href="https://drive.google.com/file/d/14wlw085MVY264Wzl44gQdD0JzNPu8XHG/view?usp=sharing"
+              >View</a
+            >
           </div>
         </div>
 
-        <!-- OOPs Concept -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/oop.jpg" alt="OOPs Concept">
-            </div>
-            <div class="flip-box-back">
-              <h2>OOPs Concept</h2>
-              <li>Level: Advanced</li>
-              <p>Strong understanding of OOP principles in JAVA</p>
-              <p>Experience in designing OOP systems</p>
-            </div>
+        <!-- GFG -->
+        <div class="card">
+          <div class="card__image">
+            <a href="https://www.geeksforgeeks.org/user/officialj9h58/"
+              ><img src="SRC/gfg.jpg" alt="gfg"
+            /></a>
+          </div>
+          <div class="card__content">
+            <h2 class="card__title">Geeks for Geeks</h2>
+            <ul>
+              <li>19th rank | GFG Weekly Coding Contest -135</li>
+              <li><span class="sub-title">score : </span> &nbsp; 98.5 / 100</li>
+              <br /><br />
+              <li>53th rank | GFG Weekly Coding Contest -129</li>
+              <li><span class="sub-title">score : </span> &nbsp; 96.1 / 100</li>
+            </ul>
+            <a class="link" href="">View</a>
           </div>
         </div>
 
-        <!-- Git & GitHub -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/git.jpg" alt="Git & GitHub">
-            </div>
-            <div class="flip-box-back">
-              <h2>Git with GitHub</h2>
-              <li>Level: Advance</li>
-              <p>Proficient in version control using Git</p>
-              <p>Experience with collaborative development on GitHub</p>
-            </div>
+        <!-- GFG -->
+        <div class="card">
+          <div class="card__image">
+            <a href=""><img src="SRC/Byte Quest.jpg" alt="gfg" /></a>
+          </div>
+          <div class="card__content">
+            <h2 class="card__title">Byte Quest</h2>
+            <ul>
+              <li>College competitive programming contest</li>
+              <li>Rank 1st</li>
+            </ul>
+            <a
+              class="link"
+              href="https://drive.google.com/file/d/1jfLeezAQl4oSY_po21j33BQT_uEHclSa/view?usp=sharing"
+              >View</a
+            >
           </div>
         </div>
 
-        <!-- Linux Kernel -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/linux.jpg" alt="Linux Kernel">
-            </div>
-            <div class="flip-box-back">
-              <h2>Linux Kernel</h2>
-              <li>Level: Intermediate</li>
-              <p>Proficient in using and configuring Linux systems</p>
-              <p>Understanding of kernel internals</p>
-            </div>
+        <!-- Code Ramzat -->
+        <div class="card">
+          <div class="card__image">
+            <img src="SRC/coderamzat.jpg" alt="coderamzat" />
           </div>
-        </div>
-
-        <!-- Deep learning -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/dl.jpg" alt="Deep Learning">
-            </div>
-            <div class="flip-box-back">
-              <h2>Deep Learning</h2>
-              <li>Level: Beginner</li>
-              <p>Proficient in using and configuring Linux systems</p>
-              <p>Understanding of kernel internals</p>
-            </div>
+          <div class="card__content">
+            <h2 class="card__title">Code Ramzat</h2>
+            <ul>
+              <li><span class="sub-title">Rank : </span> &nbsp; 3</li>
+              <li>offline DSA contest</li>
+              <li>
+                <span class="sub-title">Organic by : </span> &nbsp; BVM college
+                for all year students
+              </li>
+            </ul>
+            <a
+              class="link"
+              href="https://drive.google.com/file/d/1XjM_b_F_J35P0Y43_Lsgko8gSfZVP3SW/view?usp=sharing"
+              >View
+            </a>
           </div>
-        </div>
-
-        <!-- MAchine learning -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/ml.jpg" alt="Machine Learning">
-            </div>
-            <div class="flip-box-back">
-              <h2>Machine Learning </h2>
-              <li>Level: Beginner </li>
-              <p>Proficient in using and configuring Linux systems</p>
-              <p>Understanding of kernel internals</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- ONDC -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/ondc.jpg" alt="ONDC">
-            </div>
-            <div class="flip-box-back">
-              <h2>ONDC</h2>
-              <li>Level: Familiar </li>
-              <p>Open network for digital commerce</p>
-              <p>Do 3 month internship on this </p>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- Cloud -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/cloud.jpg" alt="Cloud">
-            </div>
-            <div class="flip-box-back">
-              <h2>Google Cloud</h2>
-              <li>Level: Familiar</li>
-              <p>Basic understanding of Google cloud services</p>
-              <p>Experience with deployment on cloud platforms</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Security -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/security.jpg" alt="Security">
-            </div>
-            <div class="flip-box-back">
-              <h2>Security</h2>
-              <li>Level: Familiar</li>
-              <p>Basic understanding of cybersecurity principles</p>
-              <p>Experience with securing web applications</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Networks -->
-        <div class="flip-box">
-          <div class="flip-box-inner">
-            <div class="flip-box-front">
-              <img src="SRC/networks.jpg" alt="Networks">
-            </div>
-            <div class="flip-box-back">
-              <h2>Networks</h2>
-              <li>Level: Familiar</li>
-              <p>Basic understanding of network protocols</p>
-              <p>Experience with network configuration</p>
-            </div>
-          </div>
-        </div>
-      </div> <!-- skill-container -->
-    </div> <!-- container -->
-
-  </section>
-
-
-  <!-- Achievements -->
-  <section id="Achievements">
-    <h2 class="title" data-aos="fade-down">Achievements</h2>
-
-    <!-- Leetcode -->
-    <div class="wrapper">
-      <div class="card">
-        <div class="card__image">
-          <img src="SRC/leetcode.jpg" alt="leetcode">
-        </div>
-        <div class="card__content">
-          <h2 class="card__title">Leetcode</h2>
-          <ul>
-            <li>Top 10%</li>
-            <li>1700+ rating</li>
-            <li>300+ Question solved</li>
-          </ul>
-          <a class="link" href="https://leetcode.com/jaiminPatel345/">View Profile</a>
         </div>
       </div>
+    </section>
 
-      <!-- codechef -->
-      <div class="card">
-        <div class="card__image">
-          <img src="SRC/codechef.jpg" alt="codechef">
-        </div>
-        <div class=" card__content">
-          <h2 class="card__title">Codechef</h2>
-          <ul>
-            <li>3 star code</li>
-            <li>1600+ rating</li>
-          </ul>
-          <a class="link" href="https://www.codechef.com/users/jaimin_patel_3">View Profile</a>
-        </div>
-      </div>
-
-      <!-- GFG -->
-      <div class="card">
-        <div class="card__image">
-          <img src="SRC/gfg.jpg" alt="gfg">
-        </div>
-        <div class="card__content">
-          <h2 class="card__title">Geeks for Geeks</h2>
-          <ul>
-            <li>19th rank | GFG Weekly Coding Contest -135 </li>
-            <li><span class="sub-title">score : </span> &nbsp; 98.5 / 100 </li>
-            <br><br>
-            <li>53th rank | GFG Weekly Coding Contest -129</li>
-            <li><span class="sub-title">score : </span> &nbsp; 96.1 / 100 </li>
-
-          </ul>
-          <a class="link" href="https://www.geeksforgeeks.org/user/officialj9h58/">View Profile</a>
-        </div>
-      </div>
-
-      <!-- Code Ramzat -->
-      <div class="card">
-        <div class="card__image">
-          <img src="SRC/coderamzat.jpg" alt="coderamzat">
-        </div>
-        <div class="card__content">
-          <h2 class="card__title">Code Ramzat</h2>
-          <ul>
-            <li><span class="sub-title">Rank : </span> &nbsp; 3 </li>
-            <li>offline DSA contest </li>
-            <li><span class="sub-title">Organic by : </span> &nbsp; BVM college for all year students </li>
-          </ul>
-          <a class="link" href="https://drive.google.com/file/d/1XjM_b_F_J35P0Y43_Lsgko8gSfZVP3SW/view?usp=sharing">View
-            Certificate </a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-
-  <!-- Experience -->
-  <section id="Experience">
-    <h2 class="title" data-aos="fade-down">Experience</h2>
-    <!-- 
+    <!-- Experience -->
+    <section id="Experience">
+      <h2 class="title" data-aos="fade-down">Experience</h2>
+      <!-- 
     <h3>Intern at Passdn</h3>
     <p>ONDC base startup </p>
     <p>3k stipend </p>
     <p>3 months internship after 2nd Year finish> -->
 
-    <div class="container" data-aos="fade-right">
-      <div>
-        <a href="https://passdn.com"><img src="SRC/passdn.jpg"></a>
+      <div class="container" data-aos="fade-right">
+        <div>
+          <a href="https://passdn.com"><img src="SRC/passdn.jpg" /></a>
+        </div>
+        <div class="detail-container">
+          <h1>SDE Intern</h1>
+          <br />
+          <ul>
+            <li><span class="sub-title">Company : </span> &nbsp; Passdn</li>
+            <li>
+              <span class="sub-title">Duration : </span> &nbsp; 1 Month | June
+              2024
+            </li>
+            <li>
+              <span class="sub-title">Role : </span> &nbsp; Backend developer
+            </li>
+            <li><span class="sub-title">Learn : </span> &nbsp; ONDC , redis</li>
+            <li>
+              <a
+                class="link"
+                href="https://drive.google.com/file/d/1H5NexBUHzAR7hn7BgOWsKOfdTjfNId6H/view?usp=sharing"
+                >Certificate</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="detail-container">
-        <h1>SDE Intern </h1><br>
+    </section>
+
+    <!-- Projects -->
+    <section id="Projects">
+      <h2 class="title" data-aos="fade-down">Projects</h2>
+
+      <div class="project" data-aos="fade-right">
+        <h1 class="project-title">HEALTH PIE</h1>
+        <br />
         <ul>
-          <li><span class="sub-title">Company : </span> &nbsp; Passdn </li>
-          <li><span class="sub-title">Duration : </span> &nbsp; 1 Month | June 2024</li>
-          <li> <span class="sub-title">Role : </span> &nbsp; Backend developer </li>
-          <li><span class="sub-title">Learn : </span> &nbsp; ONDC , redis </li>
-          <li> <a class="link"
-              href="https://drive.google.com/file/d/1H5NexBUHzAR7hn7BgOWsKOfdTjfNId6H/view?usp=sharing">Certificate</a>
+          <li>
+            <span class="sub-title">Roles : </span> &nbsp; Backend developer
+          </li>
+          <br />
+          <li>
+            <span class="sub-title">Description : </span>
+            &nbsp; A website that helps Health conscious people to find
+            nutritious food .
+          </li>
+          <br />
+          <li>
+            <span class="sub-title">Technologies & languages Used</span> :
+            &nbsp; Javascript , Node.js , Express.js , npm , ejs , MongoDB ,
+            HTML ,CSS ,Bootstrap , Tailwind , Git
+          </li>
+          <li>
+            <br />
+            <div class="sub-title">Features</div>
+            <ol>
+              <li>&nbsp;&nbsp;1. Full stack group project</li>
+              <li>&nbsp;&nbsp;2. College Hackathon runner up</li>
+              <li>&nbsp;&nbsp;3. Authentication & Authorization</li>
+              <li>&nbsp;&nbsp;4. Login Credentials</li>
+              <li>&nbsp;&nbsp;5. session management with redis /li></li>
+              <li>
+                &nbsp;&nbsp;6. Render for deploy , Cloudinary to upload images
+              </li>
+              <li>&nbsp;&nbsp;7. Calender system</li>
+              <li>&nbsp;&nbsp;8. MVC structure</li>
+              <li>&nbsp;&nbsp;9. RESTful APIs</li>
+            </ol>
+          </li>
+          <br />
+
+          <br />
+          <li id="certification">
+            <a href="https://github.com/jaiminpatel345/Health-Pie"
+              >GitHub Repo Link</a
+            >
+          </li>
+          <li id="certification">
+            <a href="https://health-pie.onrender.com">Live project link</a>
           </li>
         </ul>
       </div>
-    </div>
-  </section>
 
-
-
-  <!-- Projects -->
-  <section id="Projects">
-    <h2 class="title" data-aos="fade-down">Projects</h2>
-
-    <div class="project" data-aos="fade-right">
-      <h1 class="project-title">HEALTH PIE</h1><br>
-      <ul>
-        <li> <span class="sub-title">Roles : </span> &nbsp; Backend developer</li> <br>
-        <li><span class="sub-title">Description : </span>
-          &nbsp; A website that helps Health conscious people to find nutritious food .
-        </li>
-        <br>
-        <li> <span class="sub-title">Technologies & languages Used</span> : &nbsp; Javascript , Node.js , Express.js ,
-          npm , ejs , MongoDB , HTML ,CSS ,Bootstrap , Tailwind , Git</li>
-        <li>
-          <br>
-          <div class="sub-title">Features </div>
-          <ol>
-            <li>&nbsp;&nbsp;1. Full stack group project</li>
-            <li>&nbsp;&nbsp;2. College Hackathon runner up</li>
-            <li>&nbsp;&nbsp;3. Authentication & Authorization</li>
-            <li>&nbsp;&nbsp;4. Login Credentials</li>
-            <li>&nbsp;&nbsp;5. session management with redis /li>
-            <li>&nbsp;&nbsp;6. Render for deploy , Cloudinary to upload images</li>
-            <li>&nbsp;&nbsp;7. Calender system</li>
-            <li>&nbsp;&nbsp;8. MVC structure</li>
-            <li>&nbsp;&nbsp;9. RESTful APIs</li>
-          </ol>
-        </li>
-        <br>
-
-        <br>
-        <li id="certification"><a href="https://github.com/jaiminpatel345/Health-Pie">GitHub Repo Link</a></li>
-        <li id="certification"><a href="https://health-pie.onrender.com">Live project link</a></li>
-      </ul>
-    </div>
-
-    <div class="project" data-aos="fade-right">
-      <h1 class="project-title">WANDERLUST</h1><br>
-      <ul>
-        <li> <span class="sub-title">Roles : </span> &nbsp; Full Stack developer</li> <br>
-        <li><span class="sub-title">Description : </span>
-          &nbsp; A website that helps users to choose places for their vacation or for functions . same as Airbub
-        </li>
-        <br>
-        <li> <span class="sub-title">Technologies & languages Used</span> : &nbsp; Javascript , Node.js , Express.js ,
-          MongoDB , Redis , HTML ,CSS ,Bootstrap , Git</li>
-        <li>
-          <br>
-          <div class="sub-title">Features </div>
-          <ol>
-            <li>&nbsp;&nbsp;1. Full stack personal project</li>
-            <li>&nbsp;&nbsp;2. Authentication & Authorization</li>
-            <li>&nbsp;&nbsp;3. session management with redis</li>
-            <li>&nbsp;&nbsp;4. Render for deploy , Cloudinary to upload images</li>
-            <li>&nbsp;&nbsp;5. MVC structure</li>
-            <li>&nbsp;&nbsp;6. RESTful APIs</li>
-          </ol>
-        </li>
-        <br>
-
-        <br>
-        <li id="certification"><a href="https://github.com/JaiminPatel345/Wanderlust">GitHub Repo Link</a></li>
-        <li id="certification"><a href="https://wanderlust-zt2d.onrender.com/">Live project link</a></li>
-      </ul>
-    </div>
-
-    <div class="project" data-aos="fade-right">
-      <h1 class="project-title">TWO GOOD CO </h1><br>
-      <ul>
-        <li> <span class="sub-title">Roles : </span> &nbsp; Frontend developer</li> <br>
-        <li><span class="sub-title">Description : </span>
-          &nbsp; Clone of famous website Two good co with beautiful animations
-        </li>
-        <br>
-        <li> <span class="sub-title">Technologies & languages Used</span> : &nbsp; Javascript , HTML ,CSS </li>
-        <li>
-          <br>
-          <div class="sub-title">Features </div>
-          <ol>
-            <li>&nbsp;&nbsp;1. Frontend personal project </li>
-            <li>&nbsp;&nbsp;2. Do all animations by scratch </li>
-          </ol>
-        </li>
-        <br>
-
-        <br>
-        <li id="certification"><a href="https://github.com/JaiminPatel345/two-good-co-clone">GitHub Repo Link</a></li>
-        <li id="certification"><a href="https://jaimin-two-good-co.tiiny.site/">Live project link</a></li>
-      </ul>
-    </div>
-
-  </section>
-
-  <!-- Educations -->
-  <section id="Education">
-    <h2 class="title" data-aos="fade-down">Education</h2>
-
-    <div id="college" class="container" data-aos="fade-right" style="margin-top: 120px;">
-      <div>
-        <a href="https://bvmengineering.ac.in/"><img src="SRC/bvm.jpg"></a>
-      </div>
-      <div class="detail-container">
-        <h1>B.Tech. Computer Engineering</h1><br>
+      <div class="project" data-aos="fade-right">
+        <h1 class="project-title">WANDERLUST</h1>
+        <br />
         <ul>
-          <li><span class="sub-title">College : </span> &nbsp; Birla Vishvakarma Mahavidyalaya (BVM) </li>
-          <li>&nbsp;&nbsp;2022 - current ( till 2026 )</li>
-          <li> <span class="sub-title">GPA : </span> &nbsp; 8.29</li>
-          <li><span class="sub-title">University : </span> &nbsp; GTU ( Gujarat Technical University )</li>
-          <li> <a class="link"
-              href="https://drive.google.com/file/d/13oiBxtVP7iV8aPIoatRxgre_EQsh2o_e/view?usp=sharing">MarkSheet</a>
+          <li>
+            <span class="sub-title">Roles : </span> &nbsp; Full Stack developer
+          </li>
+          <br />
+          <li>
+            <span class="sub-title">Description : </span>
+            &nbsp; A website that helps users to choose places for their
+            vacation or for functions . same as Airbub
+          </li>
+          <br />
+          <li>
+            <span class="sub-title">Technologies & languages Used</span> :
+            &nbsp; Javascript , Node.js , Express.js , MongoDB , Redis , HTML
+            ,CSS ,Bootstrap , Git
+          </li>
+          <li>
+            <br />
+            <div class="sub-title">Features</div>
+            <ol>
+              <li>&nbsp;&nbsp;1. Full stack personal project</li>
+              <li>&nbsp;&nbsp;2. Authentication & Authorization</li>
+              <li>&nbsp;&nbsp;3. session management with redis</li>
+              <li>
+                &nbsp;&nbsp;4. Render for deploy , Cloudinary to upload images
+              </li>
+              <li>&nbsp;&nbsp;5. MVC structure</li>
+              <li>&nbsp;&nbsp;6. RESTful APIs</li>
+            </ol>
+          </li>
+          <br />
+
+          <br />
+          <li id="certification">
+            <a href="https://github.com/JaiminPatel345/Wanderlust"
+              >GitHub Repo Link</a
+            >
+          </li>
+          <li id="certification">
+            <a href="https://wanderlust-zt2d.onrender.com/"
+              >Live project link</a
+            >
           </li>
         </ul>
       </div>
-    </div>
 
-    <!-- <div id="jee"  class="container"  data-aos="fade-right">
+      <div class="project" data-aos="fade-right">
+        <h1 class="project-title">TWO GOOD CO</h1>
+        <br />
+        <ul>
+          <li>
+            <span class="sub-title">Roles : </span> &nbsp; Frontend developer
+          </li>
+          <br />
+          <li>
+            <span class="sub-title">Description : </span>
+            &nbsp; Clone of famous website Two good co with beautiful animations
+          </li>
+          <br />
+          <li>
+            <span class="sub-title">Technologies & languages Used</span> :
+            &nbsp; Javascript , HTML ,CSS
+          </li>
+          <li>
+            <br />
+            <div class="sub-title">Features</div>
+            <ol>
+              <li>&nbsp;&nbsp;1. Frontend personal project</li>
+              <li>&nbsp;&nbsp;2. Do all animations by scratch</li>
+            </ol>
+          </li>
+          <br />
+
+          <br />
+          <li id="certification">
+            <a href="https://github.com/JaiminPatel345/two-good-co-clone"
+              >GitHub Repo Link</a
+            >
+          </li>
+          <li id="certification">
+            <a href="https://jaimin-two-good-co.tiiny.site/"
+              >Live project link</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Educations -->
+    <section id="Education">
+      <h2 class="title" data-aos="fade-down">Education</h2>
+
+      <div
+        id="college"
+        class="container"
+        data-aos="fade-right"
+        style="margin-top: 120px"
+      >
+        <div>
+          <a href="https://bvmengineering.ac.in/"><img src="SRC/bvm.jpg" /></a>
+        </div>
+        <div class="detail-container">
+          <h1>B.Tech. Computer Engineering</h1>
+          <br />
+          <ul>
+            <li>
+              <span class="sub-title">College : </span> &nbsp; Birla Vishvakarma
+              Mahavidyalaya (BVM)
+            </li>
+            <li>&nbsp;&nbsp;2022 - current ( till 2026 )</li>
+            <li><span class="sub-title">GPA : </span> &nbsp; 8.29</li>
+            <li>
+              <span class="sub-title">University : </span> &nbsp; GTU ( Gujarat
+              Technical University )
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://drive.google.com/file/d/13oiBxtVP7iV8aPIoatRxgre_EQsh2o_e/view?usp=sharing"
+                >MarkSheet</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- <div id="jee"  class="container"  data-aos="fade-right">
       <div><img src="SRC/jee.jpg"></div>
       <div id="detailjee">
             <h1>Jee Advance Examination</h1><br>
@@ -892,98 +1086,141 @@
         </div>
     </div> -->
 
-    <div class="container" data-aos="fade-right">
-      <div><img src="SRC/bhs.jpg"></div>
-      <div class="detail-container">
-        <h1>HSC Science</h1><br>
-        <ul>
-          <li> <span class="sub-title">School : </span> &nbsp; Baroda High School Danteshwar</li>
-          <li><span class="sub-title">Percentage : </span> &nbsp; 88.33%</li>
-          <li><span class="sub-title">Percentile : </span> &nbsp; 97 Pr</li>
-          <li><span class="sub-title">Board : </span> &nbsp; GSEB </li>
-          <li><span class="sub-title">Year : </span> &nbsp; 2022</li>
-          <br>
-          <li> <a class="link"
-              href="https://drive.google.com/file/d/1UFuNtISyI0JMPwvN72k8exAqFIgIRqPU/view?usp=sharing">MarkSheet</a>
-          </li>
-        </ul>
+      <div class="container" data-aos="fade-right">
+        <div><img src="SRC/bhs.jpg" /></div>
+        <div class="detail-container">
+          <h1>HSC Science</h1>
+          <br />
+          <ul>
+            <li>
+              <span class="sub-title">School : </span> &nbsp; Baroda High School
+              Danteshwar
+            </li>
+            <li><span class="sub-title">Percentage : </span> &nbsp; 88.33%</li>
+            <li><span class="sub-title">Percentile : </span> &nbsp; 97 Pr</li>
+            <li><span class="sub-title">Board : </span> &nbsp; GSEB</li>
+            <li><span class="sub-title">Year : </span> &nbsp; 2022</li>
+            <br />
+            <li>
+              <a
+                class="link"
+                href="https://drive.google.com/file/d/1UFuNtISyI0JMPwvN72k8exAqFIgIRqPU/view?usp=sharing"
+                >MarkSheet</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
 
-    <div id="ssc" class="container" data-aos="fade-right">
-      <div><img src="SRC/nutan.jpg"></div>
-      <div class="detail-container">
-        <h1>SSC Board</h1><br>
-        <ul>
-          <li> <span class="sub-title">School : </span> &nbsp; Nutan Vidhyalay</li>
-          <li><span class="sub-title">Percentage : </span> &nbsp; 86.83%</li>
-          <li><span class="sub-title">Percentile : </span> &nbsp; 99.16 Pr</li>
-          <li><span class="sub-title">Board : </span> &nbsp; GSEB </li>
-          <li><span class="sub-title">Year : </span> &nbsp; 2020</li>
-          <br>
-          <li> <a class="link"
-              href="https://drive.google.com/file/d/1C2yNOtfISf-UanG3KNNvuVKFewAWiJQK/view?usp=sharing">MarkSheet</a>
-          </li>
-        </ul>
+      <div id="ssc" class="container" data-aos="fade-right">
+        <div><img src="SRC/nutan.jpg" /></div>
+        <div class="detail-container">
+          <h1>SSC Board</h1>
+          <br />
+          <ul>
+            <li>
+              <span class="sub-title">School : </span> &nbsp; Nutan Vidhyalay
+            </li>
+            <li><span class="sub-title">Percentage : </span> &nbsp; 86.83%</li>
+            <li>
+              <span class="sub-title">Percentile : </span> &nbsp; 99.16 Pr
+            </li>
+            <li><span class="sub-title">Board : </span> &nbsp; GSEB</li>
+            <li><span class="sub-title">Year : </span> &nbsp; 2020</li>
+            <br />
+            <li>
+              <a
+                class="link"
+                href="https://drive.google.com/file/d/1C2yNOtfISf-UanG3KNNvuVKFewAWiJQK/view?usp=sharing"
+                >MarkSheet</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section id="Feedback">
+      <h2 class="title" data-aos="fade-down">Feedback</h2>
+      <div class="feedback-container">
+        <form id="feedbackForm" method="post" name="feedbackForm" action="">
+          <div class="form-element">
+            <label for="nam">Name</label> <br />
+            <input
+              type="text"
+              id="nam"
+              name="name"
+              placeholder="Enter your beautiful name"
+            />
+          </div>
+          <div class="form-element">
+            <label for="email">Email</label> <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Can you provide your E-mail for further contact?"
+            />
+          </div>
+          <div class="form-element">
+            <fieldset class="starability-grow">
+              <legend class=""><label for="first-rate1"> : ) </label></legend>
+              <input
+                type="radio"
+                id="no-rate"
+                class="input-no-rate"
+                name="Rating"
+                value="0"
+                checked
+                aria-label="No rating."
+              />
+              <input type="radio" id="first-rate1" name="Rating" value="1" />
+              <label for="first-rate1" title="Terrible">1 star</label>
+              <input type="radio" id="first-rate2" name="Rating" value="2" />
+              <label for="first-rate2" title="Not good">2 stars</label>
+              <input type="radio" id="first-rate3" name="Rating" value="3" />
+              <label for="first-rate3" title="Average">3 stars</label>
+              <input type="radio" id="first-rate4" name="Rating" value="4" />
+              <label for="first-rate4" title="Very good">4 stars</label>
+              <input type="radio" id="first-rate5" name="Rating" value="5" />
+              <label for="first-rate5" title="Amazing">5 stars</label>
+            </fieldset>
+          </div>
+          <div class="form-element">
+            <label for="feedback_msg">Message *</label> <br />
+            <textarea
+              name="feedback"
+              id="feedback_msg"
+              placeholder="give your valuable feedback"
+              required
+            ></textarea>
+          </div>
+          <br />
+          <button type="submit" id="form-btn" class="btn">SUBMIT</button>
+        </form>
+      </div>
+    </section>
 
-
-  <section id="Feedback">
-    <h2 class="title" data-aos="fade-down">Feedback</h2>
-    <div class="feedback-container">
-
-      <form id="feedbackForm" method="post" name="feedbackForm" action=''>
-        <div class="form-element">
-          <label for="nam">Name</label> <br>
-          <input type="text" id="nam" name="name" placeholder="Enter your beautiful name">
-        </div>
-        <div class="form-element">
-          <label for="email">Email</label> <br>
-          <input type="email" id="email" name="email" placeholder="Can you provide your E-mail for further contact?">
-        </div>
-        <div class="form-element">
-          <fieldset class="starability-grow">
-            <legend class=""> <label for="first-rate1"> : ) </label></legend>
-            <input type="radio" id="no-rate" class="input-no-rate" name="Rating" value="0" checked
-              aria-label="No rating." />
-            <input type="radio" id="first-rate1" name="Rating" value="1" />
-            <label for="first-rate1" title="Terrible">1 star</label>
-            <input type="radio" id="first-rate2" name="Rating" value="2" />
-            <label for="first-rate2" title="Not good">2 stars</label>
-            <input type="radio" id="first-rate3" name="Rating" value="3" />
-            <label for="first-rate3" title="Average">3 stars</label>
-            <input type="radio" id="first-rate4" name="Rating" value="4" />
-            <label for="first-rate4" title="Very good">4 stars</label>
-            <input type="radio" id="first-rate5" name="Rating" value="5" />
-            <label for="first-rate5" title="Amazing">5 stars</label>
-          </fieldset>
-        </div>
-        <div class="form-element">
-          <label for="feedback_msg">Message *</label> <br>
-          <textarea name="feedback" id="feedback_msg" placeholder="give your valuable feedback" required></textarea>
-        </div>
-        <br>
-        <button type="submit" id="form-btn" class="btn">SUBMIT</button>
-      </form>
-    </div>
-  </section>
-
-
-  <script src="app.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>AOS.init({ easing: 'ease-in', delay: 100, duration: 300, offset: 100 }); window.addEventListener('load', AOS.refresh);</script>
-</body>
-
+    <script src="app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ easing: "ease-in", delay: 100, duration: 300, offset: 100 });
+      window.addEventListener("load", AOS.refresh);
+    </script>
+  </body>
 </html>

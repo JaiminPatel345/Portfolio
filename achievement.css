@@ -22,10 +22,10 @@
 }
 
 #Achievements .card .card__content .link{
-    width: 200px;
+    width: 100px;
     /* position: absolute; */
-    display: inline-block;
-    box-sizing: border-box;
+    /* display: inline-block; */
+    /* box-sizing: border-box; */
 }
 
 #Achievements .card h2{

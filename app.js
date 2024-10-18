@@ -54,7 +54,6 @@ var typed = new Typed(".typing", {
     backSpeed: 60,
     loop: true,
     fadeOut: false,
-
 });
 
 var typed = new Typed(".typing-2", {
@@ -63,7 +62,6 @@ var typed = new Typed(".typing-2", {
     backSpeed: 60,
     loop: true,
     fadeOut: true,
-
 });
 
 const form = document.getElementById('feedbackForm');

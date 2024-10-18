@@ -114,6 +114,9 @@ section .title::after {
     border-radius: 6px;
     box-shadow: 0px 0px 7px #b2ff9e;
     transition: all 0.3s ease;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }
 
  img:hover{

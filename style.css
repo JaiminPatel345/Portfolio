@@ -150,3 +150,7 @@ a:hover {
         margin: 0.2rem;
     }
 }
+
+*{
+    font-size: 1.15rem;
+}
